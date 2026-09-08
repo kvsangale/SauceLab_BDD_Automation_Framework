@@ -1,0 +1,1408 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sept 7, 2026 08:30:19 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@smoke</a><a class="dropdown-item" href="#">@regression</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Functionality</p>
+            <p class="text-sm">
+              <span>8:30:19 am</span> / <span>00:00:18:646</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Functionality</h5>
+<span class='badge badge-success'>09.07.2026 8:30:19 am</span>
+<span class='badge badge-danger'>09.07.2026 8:30:38 am</span>
+<span class='badge badge-default'>00:00:18:646</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Validate the Title</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_Def_Classes.LoginPage.user_is_on_the_login_page()">
+                <span>Given User is on the Login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_Def_Classes.LoginPage.user_should_see_the_login_page_title()">
+                <span>Then User should see the login page title</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="9"><span class="badge log pass-bg mr-2">Pass</span>Login with valid credentials</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>Login with valid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User is on the Login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User Enters valid user name "standard_user"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enters valid password "secret_sauce"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Clicks on login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should see "Products"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="23"><span class="badge log pass-bg mr-2">Pass</span>Login with valid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User is on the Login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User Enters valid user name "problem_user"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enters valid password "secret_sauce"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Clicks on login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should see "Products"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="36"><span class="badge log pass-bg mr-2">Pass</span>Login with valid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User is on the Login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User Enters valid user name "performance_glitch_user"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enters valid password "secret_sauce"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Clicks on login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should see "Products"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="49"><span class="badge log pass-bg mr-2">Pass</span>Login with valid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User is on the Login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User Enters valid user name "error_user"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enters valid password "secret_sauce"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Clicks on login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should see "Products"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="62"><span class="badge log pass-bg mr-2">Pass</span>Login with valid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User is on the Login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User Enters valid user name "visual_user"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enters valid password "secret_sauce"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Clicks on login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should see "Products"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="75"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Products page functionality</p>
+            <p class="text-sm">
+              <span>8:30:38 am</span> / <span>00:00:30:906</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Products page functionality</h5>
+<span class='badge badge-success'>09.07.2026 8:30:38 am</span>
+<span class='badge badge-danger'>09.07.2026 8:31:09 am</span>
+<span class='badge badge-default'>00:00:30:906</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=75</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="76"><span class="badge log pass-bg mr-2">Pass</span>Verify Products page is displayed successfully</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()">
+                <span>Given user is logged into SauceDemo application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.user_is_on_the_products_page()">
+                <span>Given user is on the Products page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.products_page_should_be_displayed()">
+                <span>Then Products page should be displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.products_page_title_should_be(java.lang.String)">
+                <span>And Products page title should be "Products"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.product_list_should_be_displayed()">
+                <span>And product list should be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="89"><span class="badge log fail-bg mr-2">Fail</span>Verify all products are displayed on Products page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()">
+                <span>Given user is logged into SauceDemo application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.all_available_products_should_be_displayed()">
+                <span>Then all available products should be displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Step_Def_Classes.ProductsPage.each_product_should_have_a_product_name()">
+                <span>And each product should have a product name</span>
+      <div>
+        <textarea disabled class="code-block">io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.each_product_should_have_a_product_name(ProductsPage.java:71)
+	at ✽.each product should have a product name(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:16)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.each_product_should_have_a_product_price()">
+                <span>And each product should have a product price</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.each_product_should_have_an_add_to_cart_button()">
+                <span>And each product should have an Add to cart button</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="102"><span class="badge log fail-bg mr-2">Fail</span>Verify product price is displayed correctly</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()">
+                <span>Given user is logged into SauceDemo application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Step_Def_Classes.ProductsPage.user_views_the_product_list()">
+                <span>When user views the product list</span>
+      <div>
+        <textarea disabled class="code-block">io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_views_the_product_list(ProductsPage.java:89)
+	at ✽.user views the product list(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:22)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.each_product_should_display_its_correct_price()">
+                <span>Then each product should display its correct price</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="111"><span class="badge log fail-bg mr-2">Fail</span>Verify user can sort products by Name A to Z</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()">
+                <span>Given user is logged into SauceDemo application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Step_Def_Classes.ProductsPage.user_selects_from_the_sort_dropdown(java.lang.String)">
+                <span>When user selects "Name (A to Z)" from the sort dropdown</span>
+      <div>
+        <textarea disabled class="code-block">io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_selects_from_the_sort_dropdown(ProductsPage.java:101)
+	at ✽.user selects "Name (A to Z)" from the sort dropdown(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:27)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.products_should_be_displayed_in_alphabetical_order()">
+                <span>Then products should be displayed in alphabetical order</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="120"><span class="badge log fail-bg mr-2">Fail</span>Verify user can sort products by Name Z to A</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()">
+                <span>Given user is logged into SauceDemo application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Step_Def_Classes.ProductsPage.user_selects_from_the_sort_dropdown(java.lang.String)">
+                <span>When user selects "Name (Z to A)" from the sort dropdown</span>
+      <div>
+        <textarea disabled class="code-block">io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_selects_from_the_sort_dropdown(ProductsPage.java:101)
+	at ✽.user selects "Name (Z to A)" from the sort dropdown(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:32)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.products_should_be_displayed_in_reverse_alphabetical_order()">
+                <span>Then products should be displayed in reverse alphabetical order</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="129"><span class="badge log fail-bg mr-2">Fail</span>Verify user can sort products by Price low to high</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()">
+                <span>Given user is logged into SauceDemo application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Step_Def_Classes.ProductsPage.user_selects_from_the_sort_dropdown(java.lang.String)">
+                <span>When user selects "Price (low to high)" from the sort dropdown</span>
+      <div>
+        <textarea disabled class="code-block">io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_selects_from_the_sort_dropdown(ProductsPage.java:101)
+	at ✽.user selects "Price (low to high)" from the sort dropdown(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:37)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.products_should_be_displayed_in_ascending_order_of_price()">
+                <span>Then products should be displayed in ascending order of price</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="138"><span class="badge log fail-bg mr-2">Fail</span>Verify user can sort products by Price high to low</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()">
+                <span>Given user is logged into SauceDemo application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Step_Def_Classes.ProductsPage.user_selects_from_the_sort_dropdown(java.lang.String)">
+                <span>When user selects "Price (high to low)" from the sort dropdown</span>
+      <div>
+        <textarea disabled class="code-block">io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_selects_from_the_sort_dropdown(ProductsPage.java:101)
+	at ✽.user selects "Price (high to low)" from the sort dropdown(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:42)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.products_should_be_displayed_in_descending_order_of_price()">
+                <span>Then products should be displayed in descending order of price</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="147"><span class="badge log fail-bg mr-2">Fail</span>Verify user can view product details</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()">
+                <span>Given user is logged into SauceDemo application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Step_Def_Classes.ProductsPage.user_clicks_on_a_product_name()">
+                <span>When user clicks on a product name</span>
+      <div>
+        <textarea disabled class="code-block">io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_clicks_on_a_product_name(ProductsPage.java:131)
+	at ✽.user clicks on a product name(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:47)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.product_details_page_should_be_displayed()">
+                <span>Then product details page should be displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.product_name_should_be_displayed()">
+                <span>And product name should be displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.product_price_should_be_displayed()">
+                <span>And product price should be displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.product_description_should_be_displayed()">
+                <span>And product description should be displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.product_image_should_be_displayed()">
+                <span>And product image should be displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="164"><span class="badge log fail-bg mr-2">Fail</span>Verify user can add a product to cart</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()">
+                <span>Given user is logged into SauceDemo application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(java.lang.String)">
+                <span>When user clicks Add to cart for "Sauce Labs Backpack"</span>
+      <div>
+        <textarea disabled class="code-block">io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:167)
+	at ✽.user clicks Add to cart for "Sauce Labs Backpack"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:56)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.the_product_should_be_added_to_the_cart()">
+                <span>Then the product should be added to the cart</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.cart_badge_should_display(java.lang.String)">
+                <span>And cart badge should display "1"</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="175"><span class="badge log fail-bg mr-2">Fail</span>Verify user can add multiple products to cart</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()">
+                <span>Given user is logged into SauceDemo application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Step_Def_Classes.ProductsPage.user_adds_to_the_cart(java.lang.String)">
+                <span>When user adds "Sauce Labs Backpack" to the cart</span>
+      <div>
+        <textarea disabled class="code-block">io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:185)
+	at ✽.user adds "Sauce Labs Backpack" to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:62)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.user_adds_to_the_cart(java.lang.String)">
+                <span>And user adds "Sauce Labs Bike Light" to the cart</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.cart_badge_should_display(java.lang.String)">
+                <span>Then cart badge should display "2"</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="186"><span class="badge log fail-bg mr-2">Fail</span>Verify Add to cart button changes to Remove button</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()">
+                <span>Given user is logged into SauceDemo application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(java.lang.String)">
+                <span>When user clicks Add to cart for "Sauce Labs Backpack"</span>
+      <div>
+        <textarea disabled class="code-block">io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:167)
+	at ✽.user clicks Add to cart for "Sauce Labs Backpack"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:68)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.the_button_for_should_change_to(java.lang.String,java.lang.String)">
+                <span>Then the button for "Sauce Labs Backpack" should change to "Remove"</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="195"><span class="badge log fail-bg mr-2">Fail</span>Verify user can remove a product from cart from Products page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()">
+                <span>Given user is logged into SauceDemo application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Step_Def_Classes.ProductsPage.is_added_to_the_cart(java.lang.String)">
+                <span>Given "Sauce Labs Backpack" is added to the cart</span>
+      <div>
+        <textarea disabled class="code-block">io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.is_added_to_the_cart(ProductsPage.java:197)
+	at ✽."Sauce Labs Backpack" is added to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:73)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.user_clicks_remove_for(java.lang.String)">
+                <span>When user clicks Remove for "Sauce Labs Backpack"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.the_product_should_be_removed_from_the_cart()">
+                <span>Then the product should be removed from the cart</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.cart_badge_should_not_be_displayed()">
+                <span>And cart badge should not be displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="208"><span class="badge log fail-bg mr-2">Fail</span>Verify cart badge displays correct product count</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()">
+                <span>Given user is logged into SauceDemo application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Step_Def_Classes.ProductsPage.user_adds_to_the_cart(java.lang.String)">
+                <span>When user adds "Sauce Labs Backpack" to the cart</span>
+      <div>
+        <textarea disabled class="code-block">io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:185)
+	at ✽.user adds "Sauce Labs Backpack" to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:80)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.user_adds_to_the_cart(java.lang.String)">
+                <span>And user adds "Sauce Labs Bike Light" to the cart</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.user_adds_to_the_cart(java.lang.String)">
+                <span>And user adds "Sauce Labs Bolt T-Shirt" to the cart</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.cart_badge_should_display(java.lang.String)">
+                <span>Then cart badge should display "3"</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="221"><span class="badge log fail-bg mr-2">Fail</span>Verify user can navigate to Cart page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()">
+                <span>Given user is logged into SauceDemo application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Step_Def_Classes.ProductsPage.user_clicks_on_the_shopping_cart_icon()">
+                <span>When user clicks on the shopping cart icon</span>
+      <div>
+        <textarea disabled class="code-block">io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_clicks_on_the_shopping_cart_icon(ProductsPage.java:221)
+	at ✽.user clicks on the shopping cart icon(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:87)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.user_should_be_navigated_to_the_cart_page()">
+                <span>Then user should be navigated to the Cart page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="Step_Def_Classes.ProductsPage.cart_page_should_be_displayed()">
+                <span>And Cart page should be displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>13</span>
+</span>
+<p class="name">io.cucumber.java.PendingException</p>
+<p class="duration text-sm">13 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>io.cucumber.java.PendingException</h4>
+<span status="fail" class='badge log badge-danger'>13 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:30:42 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='95'>And each product should have a product name</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify all products are displayed on Products page.And each product should have a product name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:30:44 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='106'>When user views the product list</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify product price is displayed correctly.When user views the product list</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:30:46 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='115'>When user selects "Name (A to Z)" from the sort dropdown</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can sort products by Name A to Z.When user selects "Name (A to Z)" from the sort dropdown</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:30:49 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='124'>When user selects "Name (Z to A)" from the sort dropdown</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can sort products by Name Z to A.When user selects "Name (Z to A)" from the sort dropdown</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:30:51 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='133'>When user selects "Price (low to high)" from the sort dropdown</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can sort products by Price low to high.When user selects "Price (low to high)" from the sort dropdown</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:30:53 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='142'>When user selects "Price (high to low)" from the sort dropdown</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can sort products by Price high to low.When user selects "Price (high to low)" from the sort dropdown</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:30:55 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='151'>When user clicks on a product name</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can view product details.When user clicks on a product name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:30:57 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='168'>When user clicks Add to cart for "Sauce Labs Backpack"</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can add a product to cart.When user clicks Add to cart for "Sauce Labs Backpack"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:31:00 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='179'>When user adds "Sauce Labs Backpack" to the cart</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can add multiple products to cart.When user adds "Sauce Labs Backpack" to the cart</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:31:02 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='190'>When user clicks Add to cart for "Sauce Labs Backpack"</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify Add to cart button changes to Remove button.When user clicks Add to cart for "Sauce Labs Backpack"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:31:04 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='199'>Given "Sauce Labs Backpack" is added to the cart</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can remove a product from cart from Products page.Given "Sauce Labs Backpack" is added to the cart</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:31:06 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='212'>When user adds "Sauce Labs Backpack" to the cart</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify cart badge displays correct product count.When user adds "Sauce Labs Backpack" to the cart</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:31:09 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='225'>When user clicks on the shopping cart icon</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can navigate to Cart page.When user clicks on the shopping cart icon</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@smoke</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@smoke</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:30:38 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='76'>Verify Products page is displayed successfully</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify Products page is displayed successfully</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:30:56 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='164'>Verify user can add a product to cart</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can add a product to cart</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:31:07 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='221'>Verify user can navigate to Cart page</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can navigate to Cart page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>11</span>
+</span>
+<p class="name">@regression</p>
+<p class="duration text-sm">11 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@regression</h4>
+<span status="fail" class='badge log badge-danger'>11 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:30:40 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='89'>Verify all products are displayed on Products page</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify all products are displayed on Products page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:30:42 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='102'>Verify product price is displayed correctly</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify product price is displayed correctly</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:30:45 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='111'>Verify user can sort products by Name A to Z</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can sort products by Name A to Z</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:30:47 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='120'>Verify user can sort products by Name Z to A</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can sort products by Name Z to A</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:30:49 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='129'>Verify user can sort products by Price low to high</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can sort products by Price low to high</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:30:51 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='138'>Verify user can sort products by Price high to low</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can sort products by Price high to low</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:30:53 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='147'>Verify user can view product details</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can view product details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:30:58 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='175'>Verify user can add multiple products to cart</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can add multiple products to cart</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:31:00 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='186'>Verify Add to cart button changes to Remove button</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify Add to cart button changes to Remove button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:31:02 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='195'>Verify user can remove a product from cart from Products page</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify user can remove a product from cart from Products page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:31:04 am</td>
+<td>
+<a href="#" class="linked" test-id='75' id='208'>Verify cart badge displays correct product count</a>
+<div class="">
+<span class="badge badge-default">Products page functionality.Verify cart badge displays correct product count</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sept 7, 2026 08:30:19 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sept 7, 2026 08:31:09 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='50%'>
+<b>1</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='50%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='35%'><b>7</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='65%'><b>13</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='54%'><b>46</b> steps passed</small></div>
+<div>
+<small data-tooltip='15%'><b>13</b> steps failed,
+<b>25</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Login Functionality":18.646,"Products page functionality":30.906
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@smoke</td>
+<td>1</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>33.333%</td>
+</tr>
+<tr>
+<td>@regression</td>
+<td>0</td>
+<td>11</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 7,
+failChild: 13,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 46,
+failGrandChild: 13,
+warningGrandChild: 0,
+skipGrandChild: 25,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
