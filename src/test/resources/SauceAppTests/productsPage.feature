@@ -24,12 +24,12 @@ Feature: Products page functionality
 
   @regression
   Scenario: Verify user can sort products by Name A to Z
-    When user selects "Name (A to Z)" from the sort dropdown
+    When user selects "Name (A to Z)" from the sort dropdownAtoZ
     Then products should be displayed in alphabetical order
 
   @regression
   Scenario: Verify user can sort products by Name Z to A
-    When user selects "Name (Z to A)" from the sort dropdown
+    When user selects "Name (Z to A)" from the sort dropdownZtoA
     Then products should be displayed in reverse alphabetical order
 
   @regression

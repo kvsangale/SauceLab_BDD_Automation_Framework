@@ -1,12 +1,14 @@
 package POM_Classes;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class productsPage {
 	
@@ -27,6 +29,7 @@ public class productsPage {
 	@FindBy(xpath="//div[text()='Sauce Labs Fleece Jacket']") private WebElement FleeceJacketTitle;
 	@FindBy(xpath="//div[text()='Sauce Labs Onesie']") private WebElement OnesieTitle;
 	@FindBy(xpath="//div[text()='Test.allTheThings() T-Shirt (Red)']") private WebElement RedTshirtTitle;
+	@FindBy(xpath="//select[@class='product_sort_container']") private WebElement dropDownFilter;
 	
 	
 	
@@ -108,17 +111,77 @@ public List<String> checkPriceOfEachProduct() {
 	
 	List<String> priceList = new ArrayList<String>();
 	
-	for(WebElement Product : allProducts ) {
+	for(WebElement eachPrice : allProductsPrices ) {
 		
-		if(Product.isDisplayed()) {
+		if(eachPrice.isDisplayed()) {
 			
-			String Pr = Product.getCssValue("inventory_item_price");
+			String Pr = eachPrice.getText();
 			
 			priceList.add(Pr);
 		 }
 	   }
 	 return priceList;
     }
+
+public String selectAtoZNameOptionfromDD() {
+	
+	Select sel = new Select(dropDownFilter);
+	
+	sel.selectByVisibleText(("Name (A to Z)"));
+	WebElement OptionSelected = sel.getFirstSelectedOption();
+	
+	String optionText= OptionSelected.getText();
+	
+	return optionText;
+ }
+
+public String selectZtoANameOptionfromDD() {
+	
+	Select sel = new Select(dropDownFilter);
+	
+	sel.selectByVisibleText(("Name (Z to A)"));
+	
+	WebElement AnotherOptionSelected = sel.getFirstSelectedOption();
+	
+	String optionText= AnotherOptionSelected.getText();
+	
+	return optionText;
+ }
+public boolean checkProductsAreInAlphabeticalOrder() {
+	
+	List<String> actualProductList = new ArrayList<String>(); 
+	
+	for(WebElement product: allProductsNames ) {
+		
+		String ProductNameText = product.getText();
+		
+		actualProductList.add(ProductNameText);
+		
+	}
+	List<String> sortedProductList = new ArrayList<String>(actualProductList);
+	
+	Collections.sort(sortedProductList);
+	
+	return actualProductList.equals(sortedProductList);
+ }
+
+public boolean checkProductsAreInReverseAlphabeticalOrder() {
+	
+	List<String> actualProductList = new ArrayList<String>(); 
+	
+	for(WebElement product: allProductsNames ) {
+		
+		String ProductNameText = product.getText();
+		
+		actualProductList.add(ProductNameText);
+		
+	}
+	List<String> sortedProductList = new ArrayList<String>(actualProductList);
+	
+	Collections.reverse(sortedProductList);
+	
+	return actualProductList.equals(sortedProductList);
+ }
 }
 
 

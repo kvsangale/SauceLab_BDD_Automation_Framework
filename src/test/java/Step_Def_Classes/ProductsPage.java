@@ -37,7 +37,8 @@ public class ProductsPage {
 	@Then("Products page should be displayed")
 	public void products_page_should_be_displayed() {
 		
-	  
+		String Page = PrPage.getPageTitle();
+		System.out.println("Page is displayed" + Page);
 	  
 	}
 
@@ -60,57 +61,85 @@ public class ProductsPage {
 	@Then("all available products should be displayed")
 	public void all_available_products_should_be_displayed() {
 	 
-		List<String> ListOfAllAvailableProducts =PrPage.getAllProducts();
+		List<String> ListOfAllAvailableProducts = PrPage.getAllProducts();
 		
 		System.out.println(ListOfAllAvailableProducts);
 	}
 
 	@Then("each product should have a product name")
 	public void each_product_should_have_a_product_name() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	  
+		List<String> names = PrPage.getAllProductNames();
+		System.out.println(names);
 	}
 
 	@Then("each product should have a product price")
 	public void each_product_should_have_a_product_price() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	 
+		List<String> prices = PrPage.getAllProductprices();
+		System.out.println(prices);
 	}
 
 	@Then("each product should have an Add to cart button")
 	public void each_product_should_have_an_add_to_cart_button() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    
+	  int addToCartbtns = PrPage.getAllAddToCartBtn();
+	 System.out.println("number of add to cart button present on products page" + addToCartbtns);
+		
 	}
 
 	@When("user views the product list")
 	public void user_views_the_product_list() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		
+        List<String> listOfProduct = PrPage.getAllProducts();
+        
+        System.out.println("Product list verified"+ listOfProduct);
+		
 	}
 
 	@Then("each product should display its correct price")
 	public void each_product_should_display_its_correct_price() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    
+		List<String> priceList = PrPage.checkPriceOfEachProduct();
+		
+		System.out.println("Each product contains the price tag"+ priceList );
 	}
 
-	@When("user selects {string} from the sort dropdown")
-	public void user_selects_from_the_sort_dropdown(String string) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@When("user selects {string} from the sort dropdownAtoZ")
+	public void user_selects_from_the_sort_dropdownAtoZ(String DropDownOption) {
+	   
+	String selectedOption =	PrPage.selectAtoZNameOptionfromDD();
+	
+	System.out.println(selectedOption);
+	
+	Assert.assertEquals(selectedOption, DropDownOption);
+	
 	}
 
 	@Then("products should be displayed in alphabetical order")
 	public void products_should_be_displayed_in_alphabetical_order() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+
+		boolean ProductOrdersOnPage = PrPage.checkProductsAreInAlphabeticalOrder();
+		
+		Assert.assertTrue(ProductOrdersOnPage);
+	}
+	@When("user selects {string} from the sort dropdownZtoA")
+	public void user_selects_from_the_sort_dropdownZtoA(String DropDownOption) {
+	   
+	String selectedOption =	PrPage.selectZtoANameOptionfromDD();
+	
+	System.out.println(selectedOption);
+	
+	Assert.assertEquals(selectedOption, DropDownOption);
+	
 	}
 
 	@Then("products should be displayed in reverse alphabetical order")
 	public void products_should_be_displayed_in_reverse_alphabetical_order() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    
+		boolean ReverseProductorederCheck = PrPage.checkProductsAreInReverseAlphabeticalOrder();
+	   Assert.assertFalse(ReverseProductorederCheck);
+	
 	}
 
 	@Then("products should be displayed in ascending order of price")
