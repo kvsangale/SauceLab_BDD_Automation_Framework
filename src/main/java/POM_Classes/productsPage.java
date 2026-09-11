@@ -31,8 +31,6 @@ public class productsPage {
 	@FindBy(xpath="//div[text()='Test.allTheThings() T-Shirt (Red)']") private WebElement RedTshirtTitle;
 	@FindBy(xpath="//select[@class='product_sort_container']") private WebElement dropDownFilter;
 	
-	
-	
 public productsPage(WebDriver driver) {
 	
 	this.driver = driver;
@@ -118,7 +116,7 @@ public List<String> checkPriceOfEachProduct() {
 			String Pr = eachPrice.getText();
 			
 			priceList.add(Pr);
-		 }
+		  }
 	   }
 	 return priceList;
     }
@@ -175,13 +173,128 @@ public boolean checkProductsAreInReverseAlphabeticalOrder() {
 		
 		actualProductList.add(ProductNameText);
 		
-	}
+	  }
 	List<String> sortedProductList = new ArrayList<String>(actualProductList);
 	
 	Collections.reverse(sortedProductList);
 	
 	return actualProductList.equals(sortedProductList);
- }
+   }
+
+public String selectLowToHighPriceOption() {
+	
+	Select sel = new Select(dropDownFilter);
+	
+	sel.selectByVisibleText("Price (low to high)");
+	
+	WebElement selectedOption = sel.getFirstSelectedOption();
+	
+	String selectedText = selectedOption.getText();
+	
+	return selectedText;
+   }
+public String selectHighToLowPriceOption() {
+	
+	Select sel = new Select(dropDownFilter);
+	
+	sel.selectByVisibleText("Price (high to low)");
+	
+	WebElement selectedOption = sel.getFirstSelectedOption();
+	
+	String selectedText = selectedOption.getText();
+	
+	return selectedText;
+   }
+public boolean checkThePriceIsAscOredr() {
+	
+Select sel = new Select(dropDownFilter);
+	
+	sel.selectByVisibleText("Price (low to high)");
+	
+	List<Double> Price = new ArrayList<Double>();
+	
+	for(WebElement eachPrice: allProductsPrices) {
+		
+		String priceText = eachPrice.getText().replace("$", "");
+		
+		Price.add(Double.parseDouble(priceText));
+		
+	}
+	
+	List<Double> sortedList = new ArrayList<Double>(Price);
+	
+	Collections.sort(sortedList);
+	
+	if(Price.equals(sortedList)) {
+		
+		System.out.println(sortedList);
+		
+		return true;
+	}
+	
+	return false;
+	
+    }
+
+public boolean checkThePriceIsDescendingOrder() {
+	
+Select sel = new Select(dropDownFilter);
+	
+	sel.selectByVisibleText("Price (high to low)");
+	
+	List<Double> Price = new ArrayList<Double>();
+	
+	for(WebElement eachPrice: allProductsPrices) {
+		
+		String priceText = eachPrice.getText().replace("$", "");
+		
+		Price.add(Double.parseDouble(priceText));
+		
+	}
+	
+	List<Double> sortedList = new ArrayList<Double>(Price);
+	
+	Collections.reverse(sortedList);
+	
+	if(Price.equals(sortedList)) {
+		
+		System.out.println(sortedList);
+		
+		return true;
+	}
+	
+	System.out.println(Price);
+	 return true;
+    }
+
+public void clickOnProduct(String product) {
+	
+	 if(product.equals("Sauce Labs Backpack")) {
+	
+		 BackpackTitle.click();
+	  }
+	 else if (product.equals("Sauce Labs Bike Light")) {
+		 
+		 BikeLightTitle.click();
+	   }
+	 else if (product.equals("Sauce Labs Bolt T-Shirt")) {
+		 
+		 BoltTshirtTitle.click();
+	  }
+	 else if(product.equals("Sauce Labs Fleece Jacket")) {
+		 
+		 FleeceJacketTitle.click();
+		 
+	  }
+	 else if(product.equals("Sauce Labs Onesie")) {
+		 
+		 OnesieTitle.clear();
+	 }
+	 else if(product.equals("Test.allTheThings() T-Shirt (Red)")) {
+		 
+		 RedTshirtTitle.click();
+	  }
+    }
 }
 
 

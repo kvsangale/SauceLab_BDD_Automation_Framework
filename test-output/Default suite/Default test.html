@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>11/9/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>13/7/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Sep 08 12:12:35 PDT 2026</td>
+<td>Started on:</td><td>Wed Sep 09 18:33:38 PDT 2026</td>
 </tr>
-<tr><td>Total time:</td><td>38 seconds (38775 ms)</td>
+<tr><td>Total time:</td><td>40 seconds (40407 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,138 +76,334 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can add multiple products to cart", "Products page functionality"</td>
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user adds &quot;Sauce Labs Backpack&quot; to the cart&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;user adds {string} to the cart&quot;)
+public void user_adds_to_the_cart(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;cart badge should display {string}&quot;)
+public void cart_badge_should_display(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.user adds &quot;Sauce Labs Backpack&quot; to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:62)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1644606631", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1644606631'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user adds &quot;Sauce Labs Backpack&quot; to the cart&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;user adds {string} to the cart&quot;)
+public void user_adds_to_the_cart(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;cart badge should display {string}&quot;)
+public void cart_badge_should_display(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.user adds &quot;Sauce Labs Backpack&quot; to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:62)
+</pre></div></td>
+<td>1</td>
+<td>Runner_Class.Runner_class@26b3fd41</td></tr>
+<tr>
 <td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can view product details", "Products page functionality"</td>
-<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
-	at Step_Def_Classes.ProductsPage.user_clicks_on_a_product_name(ProductsPage.java:160)
-	at ✽.user clicks on a product name(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:47)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2030931933", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2030931933'><pre>io.cucumber.java.PendingException: TODO: implement me
-	at Step_Def_Classes.ProductsPage.user_clicks_on_a_product_name(ProductsPage.java:160)
-	at ✽.user clicks on a product name(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:47)
-</pre></div></td>
-<td>1</td>
-<td>Runner_Class.Runner_class@26b3fd41</td></tr>
-<tr>
-<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can sort products by Price high to low", "Products page functionality"</td>
-<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user selects &quot;Price (high to low)&quot; from the sort dropdown&apos; is undefined.
-You can implement this step using the snippet(s) below:
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user clicks on a product name&apos; and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
 
-@When(&quot;user selects {string} from the sort dropdown&quot;)
-public void user_selects_from_the_sort_dropdown(String string) {
+@When(&quot;user clicks on a product name&quot;)
+public void user_clicks_on_a_product_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;product details page should be displayed&quot;)
+public void product_details_page_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;product name should be displayed&quot;)
+public void product_name_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;product price should be displayed&quot;)
+public void product_price_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;product description should be displayed&quot;)
+public void product_description_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;product image should be displayed&quot;)
+public void product_image_should_be_displayed() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
 
-	at ✽.user selects &quot;Price (high to low)&quot; from the sort dropdown(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:42)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1430070649", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1430070649'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user selects &quot;Price (high to low)&quot; from the sort dropdown&apos; is undefined.
-You can implement this step using the snippet(s) below:
+	at ✽.user clicks on a product name(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:47)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1114681666", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1114681666'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user clicks on a product name&apos; and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
 
-@When(&quot;user selects {string} from the sort dropdown&quot;)
-public void user_selects_from_the_sort_dropdown(String string) {
+@When(&quot;user clicks on a product name&quot;)
+public void user_clicks_on_a_product_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;product details page should be displayed&quot;)
+public void product_details_page_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;product name should be displayed&quot;)
+public void product_name_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;product price should be displayed&quot;)
+public void product_price_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;product description should be displayed&quot;)
+public void product_description_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;product image should be displayed&quot;)
+public void product_image_should_be_displayed() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
 
-	at ✽.user selects &quot;Price (high to low)&quot; from the sort dropdown(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:42)
-</pre></div></td>
-<td>1</td>
-<td>Runner_Class.Runner_class@26b3fd41</td></tr>
-<tr>
-<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can remove a product from cart from Products page", "Products page functionality"</td>
-<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
-	at Step_Def_Classes.ProductsPage.is_added_to_the_cart(ProductsPage.java:226)
-	at ✽.&quot;Sauce Labs Backpack&quot; is added to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:73)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1232461217", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1232461217'><pre>io.cucumber.java.PendingException: TODO: implement me
-	at Step_Def_Classes.ProductsPage.is_added_to_the_cart(ProductsPage.java:226)
-	at ✽.&quot;Sauce Labs Backpack&quot; is added to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:73)
+	at ✽.user clicks on a product name(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:47)
 </pre></div></td>
 <td>1</td>
 <td>Runner_Class.Runner_class@26b3fd41</td></tr>
 <tr>
 <td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can navigate to Cart page", "Products page functionality"</td>
-<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
-	at Step_Def_Classes.ProductsPage.user_clicks_on_the_shopping_cart_icon(ProductsPage.java:250)
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user clicks on the shopping cart icon&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;user clicks on the shopping cart icon&quot;)
+public void user_clicks_on_the_shopping_cart_icon() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;user should be navigated to the Cart page&quot;)
+public void user_should_be_navigated_to_the_cart_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;Cart page should be displayed&quot;)
+public void cart_page_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
 	at ✽.user clicks on the shopping cart icon(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:87)
-</pre></div><a href='#' onClick='toggleBox("stack-trace373197129", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace373197129'><pre>io.cucumber.java.PendingException: TODO: implement me
-	at Step_Def_Classes.ProductsPage.user_clicks_on_the_shopping_cart_icon(ProductsPage.java:250)
+</pre></div><a href='#' onClick='toggleBox("stack-trace190182839", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace190182839'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user clicks on the shopping cart icon&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;user clicks on the shopping cart icon&quot;)
+public void user_clicks_on_the_shopping_cart_icon() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;user should be navigated to the Cart page&quot;)
+public void user_should_be_navigated_to_the_cart_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;Cart page should be displayed&quot;)
+public void cart_page_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
 	at ✽.user clicks on the shopping cart icon(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:87)
 </pre></div></td>
 <td>1</td>
 <td>Runner_Class.Runner_class@26b3fd41</td></tr>
 <tr>
 <td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can add a product to cart", "Products page functionality"</td>
-<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
-	at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:196)
-	at ✽.user clicks Add to cart for &quot;Sauce Labs Backpack&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:56)
-</pre></div><a href='#' onClick='toggleBox("stack-trace988876043", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace988876043'><pre>io.cucumber.java.PendingException: TODO: implement me
-	at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:196)
-	at ✽.user clicks Add to cart for &quot;Sauce Labs Backpack&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:56)
-</pre></div></td>
-<td>1</td>
-<td>Runner_Class.Runner_class@26b3fd41</td></tr>
-<tr>
-<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can add multiple products to cart", "Products page functionality"</td>
-<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
-	at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:214)
-	at ✽.user adds &quot;Sauce Labs Backpack&quot; to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:62)
-</pre></div><a href='#' onClick='toggleBox("stack-trace604480364", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace604480364'><pre>io.cucumber.java.PendingException: TODO: implement me
-	at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:214)
-	at ✽.user adds &quot;Sauce Labs Backpack&quot; to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:62)
-</pre></div></td>
-<td>1</td>
-<td>Runner_Class.Runner_class@26b3fd41</td></tr>
-<tr>
-<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can sort products by Price low to high", "Products page functionality"</td>
-<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user selects &quot;Price (low to high)&quot; from the sort dropdown&apos; is undefined.
-You can implement this step using the snippet(s) below:
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user clicks Add to cart for &quot;Sauce Labs Backpack&quot;&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
 
-@When(&quot;user selects {string} from the sort dropdown&quot;)
-public void user_selects_from_the_sort_dropdown(String string) {
+@When(&quot;user clicks Add to cart for {string}&quot;)
+public void user_clicks_add_to_cart_for(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the product should be added to the cart&quot;)
+public void the_product_should_be_added_to_the_cart() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;cart badge should display {string}&quot;)
+public void cart_badge_should_display(String string) {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
 
-	at ✽.user selects &quot;Price (low to high)&quot; from the sort dropdown(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:37)
-</pre></div><a href='#' onClick='toggleBox("stack-trace911933063", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace911933063'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user selects &quot;Price (low to high)&quot; from the sort dropdown&apos; is undefined.
-You can implement this step using the snippet(s) below:
+	at ✽.user clicks Add to cart for &quot;Sauce Labs Backpack&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:56)
+</pre></div><a href='#' onClick='toggleBox("stack-trace473655651", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace473655651'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user clicks Add to cart for &quot;Sauce Labs Backpack&quot;&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
 
-@When(&quot;user selects {string} from the sort dropdown&quot;)
-public void user_selects_from_the_sort_dropdown(String string) {
+@When(&quot;user clicks Add to cart for {string}&quot;)
+public void user_clicks_add_to_cart_for(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the product should be added to the cart&quot;)
+public void the_product_should_be_added_to_the_cart() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;cart badge should display {string}&quot;)
+public void cart_badge_should_display(String string) {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
 
-	at ✽.user selects &quot;Price (low to high)&quot; from the sort dropdown(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:37)
+	at ✽.user clicks Add to cart for &quot;Sauce Labs Backpack&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:56)
 </pre></div></td>
-<td>1</td>
+<td>2</td>
 <td>Runner_Class.Runner_class@26b3fd41</td></tr>
 <tr>
 <td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Add to cart button changes to Remove button", "Products page functionality"</td>
-<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
-	at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:196)
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user clicks Add to cart for &quot;Sauce Labs Backpack&quot;&apos; and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;user clicks Add to cart for {string}&quot;)
+public void user_clicks_add_to_cart_for(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the button for {string} should change to {string}&quot;)
+public void the_button_for_should_change_to(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
 	at ✽.user clicks Add to cart for &quot;Sauce Labs Backpack&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:68)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1214498988", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1214498988'><pre>io.cucumber.java.PendingException: TODO: implement me
-	at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:196)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1274308620", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1274308620'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user clicks Add to cart for &quot;Sauce Labs Backpack&quot;&apos; and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;user clicks Add to cart for {string}&quot;)
+public void user_clicks_add_to_cart_for(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the button for {string} should change to {string}&quot;)
+public void the_button_for_should_change_to(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
 	at ✽.user clicks Add to cart for &quot;Sauce Labs Backpack&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:68)
 </pre></div></td>
 <td>1</td>
 <td>Runner_Class.Runner_class@26b3fd41</td></tr>
 <tr>
 <td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify cart badge displays correct product count", "Products page functionality"</td>
-<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
-	at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:214)
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user adds &quot;Sauce Labs Backpack&quot; to the cart&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;user adds {string} to the cart&quot;)
+public void user_adds_to_the_cart(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;cart badge should display {string}&quot;)
+public void cart_badge_should_display(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
 	at ✽.user adds &quot;Sauce Labs Backpack&quot; to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:80)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1908116276", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1908116276'><pre>io.cucumber.java.PendingException: TODO: implement me
-	at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:214)
+</pre></div><a href='#' onClick='toggleBox("stack-trace188241890", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace188241890'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user adds &quot;Sauce Labs Backpack&quot; to the cart&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;user adds {string} to the cart&quot;)
+public void user_adds_to_the_cart(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;cart badge should display {string}&quot;)
+public void cart_badge_should_display(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
 	at ✽.user adds &quot;Sauce Labs Backpack&quot; to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:80)
+</pre></div></td>
+<td>1</td>
+<td>Runner_Class.Runner_class@26b3fd41</td></tr>
+<tr>
+<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can remove a product from cart from Products page", "Products page functionality"</td>
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;&quot;Sauce Labs Backpack&quot; is added to the cart&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;{string} is added to the cart&quot;)
+public void is_added_to_the_cart(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user clicks Remove for {string}&quot;)
+public void user_clicks_remove_for(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the product should be removed from the cart&quot;)
+public void the_product_should_be_removed_from_the_cart() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;cart badge should not be displayed&quot;)
+public void cart_badge_should_not_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.&quot;Sauce Labs Backpack&quot; is added to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:73)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1167607380", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1167607380'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;&quot;Sauce Labs Backpack&quot; is added to the cart&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;{string} is added to the cart&quot;)
+public void is_added_to_the_cart(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;user clicks Remove for {string}&quot;)
+public void user_clicks_remove_for(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the product should be removed from the cart&quot;)
+public void the_product_should_be_removed_from_the_cart() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;cart badge should not be displayed&quot;)
+public void cart_badge_should_not_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.&quot;Sauce Labs Backpack&quot; is added to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:73)
 </pre></div></td>
 <td>1</td>
 <td>Runner_Class.Runner_class@26b3fd41</td></tr>
@@ -226,9 +422,29 @@ public void user_selects_from_the_sort_dropdown(String string) {
 <td>1</td>
 <td>Runner_Class.Runner_class@26b3fd41</td></tr>
 <tr>
-<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can sort products by Name A to Z", "Products page functionality"</td>
+<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify all products are displayed on Products page", "Products page functionality"</td>
 <td></td>
 <td>1</td>
+<td>Runner_Class.Runner_class@26b3fd41</td></tr>
+<tr>
+<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can sort products by Price low to high", "Products page functionality"</td>
+<td></td>
+<td>2</td>
+<td>Runner_Class.Runner_class@26b3fd41</td></tr>
+<tr>
+<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Login Functionality"</td>
+<td></td>
+<td>1</td>
+<td>Runner_Class.Runner_class@26b3fd41</td></tr>
+<tr>
+<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Login Functionality"</td>
+<td></td>
+<td>1</td>
+<td>Runner_Class.Runner_class@26b3fd41</td></tr>
+<tr>
+<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can sort products by Price high to low", "Products page functionality"</td>
+<td></td>
+<td>2</td>
 <td>Runner_Class.Runner_class@26b3fd41</td></tr>
 <tr>
 <td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Login Functionality"</td>
@@ -236,7 +452,17 @@ public void user_selects_from_the_sort_dropdown(String string) {
 <td>6</td>
 <td>Runner_Class.Runner_class@26b3fd41</td></tr>
 <tr>
-<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Products page is displayed successfully", "Products page functionality"</td>
+<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify product price is displayed correctly", "Products page functionality"</td>
+<td></td>
+<td>1</td>
+<td>Runner_Class.Runner_class@26b3fd41</td></tr>
+<tr>
+<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Login Functionality"</td>
+<td></td>
+<td>1</td>
+<td>Runner_Class.Runner_class@26b3fd41</td></tr>
+<tr>
+<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can sort products by Name A to Z", "Products page functionality"</td>
 <td></td>
 <td>1</td>
 <td>Runner_Class.Runner_class@26b3fd41</td></tr>
@@ -246,32 +472,12 @@ public void user_selects_from_the_sort_dropdown(String string) {
 <td>1</td>
 <td>Runner_Class.Runner_class@26b3fd41</td></tr>
 <tr>
+<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Products page is displayed successfully", "Products page functionality"</td>
+<td></td>
+<td>1</td>
+<td>Runner_Class.Runner_class@26b3fd41</td></tr>
+<tr>
 <td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Title", "Login Functionality"</td>
-<td></td>
-<td>1</td>
-<td>Runner_Class.Runner_class@26b3fd41</td></tr>
-<tr>
-<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Login Functionality"</td>
-<td></td>
-<td>1</td>
-<td>Runner_Class.Runner_class@26b3fd41</td></tr>
-<tr>
-<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Login Functionality"</td>
-<td></td>
-<td>1</td>
-<td>Runner_Class.Runner_class@26b3fd41</td></tr>
-<tr>
-<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify all products are displayed on Products page", "Products page functionality"</td>
-<td></td>
-<td>1</td>
-<td>Runner_Class.Runner_class@26b3fd41</td></tr>
-<tr>
-<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify product price is displayed correctly", "Products page functionality"</td>
-<td></td>
-<td>1</td>
-<td>Runner_Class.Runner_class@26b3fd41</td></tr>
-<tr>
-<td title='Runner_Class.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner_Class.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Login Functionality"</td>
 <td></td>
 <td>1</td>
 <td>Runner_Class.Runner_class@26b3fd41</td></tr>

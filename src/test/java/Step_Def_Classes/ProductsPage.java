@@ -1,10 +1,8 @@
 package Step_Def_Classes;
 
 import java.util.List;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-
 import POM_Classes.loginPage;
 import POM_Classes.productsPage;
 import QA.DriverFactory;
@@ -141,21 +139,41 @@ public class ProductsPage {
 	   Assert.assertFalse(ReverseProductorederCheck);
 	
 	}
+	
+	@When("user selects {string} from the sort dropdown")
+	public void user_selects_from_the_sort_dropdown(String priceRange) {
+	    
+		if(priceRange.equals("Price (low to high)")) {
+			
+			String actualSelected =PrPage.selectLowToHighPriceOption();
+			Assert.assertEquals( actualSelected, priceRange);
+		}
+		else if(priceRange.equals("Price (high to low)")) {
+			
+			String actualSelected = PrPage.selectHighToLowPriceOption();
+			Assert.assertEquals( actualSelected, priceRange);
+		}
+	}
 
 	@Then("products should be displayed in ascending order of price")
 	public void products_should_be_displayed_in_ascending_order_of_price() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	   
+		boolean OrderofPrices = PrPage.checkThePriceIsAscOredr();
+		
+		Assert.assertTrue(OrderofPrices);
 	}
 
+	
 	@Then("products should be displayed in descending order of price")
 	public void products_should_be_displayed_in_descending_order_of_price() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	   
+     boolean OrderofPrices = PrPage.checkThePriceIsDescendingOrder();
+		
+		Assert.assertTrue(OrderofPrices);
 	}
 
-	@When("user clicks on a product name")
-	public void user_clicks_on_a_product_name() {
+	@When("user clicks on a product name {string}")
+	public void user_clicks_on_a_product_name(String string) {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
@@ -166,29 +184,30 @@ public class ProductsPage {
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@Then("product name should be displayed")
-	public void product_name_should_be_displayed() {
+	@Then("product name should be displayed {string}")
+	public void product_name_should_be_displayed(String string) {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@Then("product price should be displayed")
-	public void product_price_should_be_displayed() {
+	@Then("product price should be displayed {string}")
+	public void product_price_should_be_displayed(String string) {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@Then("product description should be displayed")
-	public void product_description_should_be_displayed() {
+	@Then("product description should be displayed {string}")
+	public void product_description_should_be_displayed(String string) {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@Then("product image should be displayed")
-	public void product_image_should_be_displayed() {
+	@Then("product image should be displayed {string}")
+	public void product_image_should_be_displayed(String string) {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
+
 
 	@When("user clicks Add to cart for {string}")
 	public void user_clicks_add_to_cart_for(String string) {

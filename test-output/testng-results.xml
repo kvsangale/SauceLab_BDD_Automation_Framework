@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="11" failed="9" skipped="0">
+<testng-results ignored="0" total="20" passed="13" failed="7" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-08T12:12:35 GMT-07:00" name="Default suite" finished-at="2026-09-08T12:13:14 GMT-07:00" duration-ms="38775">
+  <suite started-at="2026-09-09T18:33:38 GMT-07:00" name="Default suite" finished-at="2026-09-09T18:34:19 GMT-07:00" duration-ms="40407">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-09-08T12:12:35 GMT-07:00" name="Default test" finished-at="2026-09-08T12:13:14 GMT-07:00" duration-ms="38775">
+    <test started-at="2026-09-09T18:33:38 GMT-07:00" name="Default test" finished-at="2026-09-09T18:34:19 GMT-07:00" duration-ms="40407">
       <class name="Runner_Class.Runner_class">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:12:35 GMT-07:00" name="setUpClass" finished-at="2026-09-08T12:12:36 GMT-07:00" duration-ms="418" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:33:39 GMT-07:00" name="setUpClass" finished-at="2026-09-09T18:33:39 GMT-07:00" duration-ms="346" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2a425cf5]]>
+                <![CDATA[org.testng.TestRunner@7f4f1536]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:12:36 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:12:38 GMT-07:00" duration-ms="1855" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:33:39 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:33:41 GMT-07:00" duration-ms="1776" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:12:38 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:12:39 GMT-07:00" duration-ms="1424" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:33:41 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:33:42 GMT-07:00" duration-ms="1466" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:12:39 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:12:40 GMT-07:00" duration-ms="1411" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:33:42 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:33:44 GMT-07:00" duration-ms="1427" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:12:40 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:12:47 GMT-07:00" duration-ms="6445" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:33:44 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:33:50 GMT-07:00" duration-ms="6376" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:12:47 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:12:48 GMT-07:00" duration-ms="1534" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:33:50 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:33:51 GMT-07:00" duration-ms="1411" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:12:48 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:12:50 GMT-07:00" duration-ms="1432" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:33:51 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:33:53 GMT-07:00" duration-ms="1460" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,7 +117,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:12:50 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:12:51 GMT-07:00" duration-ms="1620" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:33:53 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:33:54 GMT-07:00" duration-ms="1633" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -133,7 +133,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:12:51 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:12:53 GMT-07:00" duration-ms="1661" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:33:54 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:33:56 GMT-07:00" duration-ms="1616" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -149,7 +149,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:12:53 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:12:55 GMT-07:00" duration-ms="1629" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:33:56 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:33:58 GMT-07:00" duration-ms="1553" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -165,7 +165,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:12:55 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:12:56 GMT-07:00" duration-ms="1608" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:33:58 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:33:59 GMT-07:00" duration-ms="1583" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,7 +181,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:12:56 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:12:58 GMT-07:00" duration-ms="1741" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:33:59 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:34:01 GMT-07:00" duration-ms="1624" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -197,7 +197,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:12:58 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:13:00 GMT-07:00" duration-ms="1658" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:34:01 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:34:03 GMT-07:00" duration-ms="2066" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -210,36 +210,10 @@
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'user selects "Price (low to high)" from the sort dropdown' is undefined.
-You can implement this step using the snippet(s) below:
-
-@When("user selects {string} from the sort dropdown")
-public void user_selects_from_the_sort_dropdown(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'user selects "Price (low to high)" from the sort dropdown' is undefined.
-You can implement this step using the snippet(s) below:
-
-@When("user selects {string} from the sort dropdown")
-public void user_selects_from_the_sort_dropdown(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at ✽.user selects "Price (low to high)" from the sort dropdown(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:37)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:13:00 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:13:02 GMT-07:00" duration-ms="1738" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:34:03 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:34:05 GMT-07:00" duration-ms="2329" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -252,36 +226,10 @@ at ✽.user selects "Price (low to high)" from the sort dropdown(file:///C:/User
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'user selects "Price (high to low)" from the sort dropdown' is undefined.
-You can implement this step using the snippet(s) below:
-
-@When("user selects {string} from the sort dropdown")
-public void user_selects_from_the_sort_dropdown(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'user selects "Price (high to low)" from the sort dropdown' is undefined.
-You can implement this step using the snippet(s) below:
-
-@When("user selects {string} from the sort dropdown")
-public void user_selects_from_the_sort_dropdown(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at ✽.user selects "Price (high to low)" from the sort dropdown(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:42)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:13:02 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:13:03 GMT-07:00" duration-ms="1662" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:34:05 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:34:07 GMT-07:00" duration-ms="1824" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -294,21 +242,86 @@ at ✽.user selects "Price (high to low)" from the sort dropdown(file:///C:/User
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.java.PendingException">
+          <exception class="io.cucumber.testng.UndefinedStepException">
             <message>
-              <![CDATA[TODO: implement me]]>
+              <![CDATA[The step 'user clicks on a product name' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user clicks on a product name")
+public void user_clicks_on_a_product_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("product details page should be displayed")
+public void product_details_page_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("product name should be displayed")
+public void product_name_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("product price should be displayed")
+public void product_price_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("product description should be displayed")
+public void product_description_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("product image should be displayed")
+public void product_image_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
-at Step_Def_Classes.ProductsPage.user_clicks_on_a_product_name(ProductsPage.java:160)
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'user clicks on a product name' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user clicks on a product name")
+public void user_clicks_on_a_product_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("product details page should be displayed")
+public void product_details_page_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("product name should be displayed")
+public void product_name_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("product price should be displayed")
+public void product_price_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("product description should be displayed")
+public void product_description_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("product image should be displayed")
+public void product_image_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
 at ✽.user clicks on a product name(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:47)
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.cucumber.java.PendingException -->
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:13:03 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:13:05 GMT-07:00" duration-ms="1822" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:34:07 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:34:09 GMT-07:00" duration-ms="2013" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -321,21 +334,56 @@ at ✽.user clicks on a product name(file:///C:/Users/spgit/OneDrive/Software%20
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.java.PendingException">
+          <exception class="io.cucumber.testng.UndefinedStepException">
             <message>
-              <![CDATA[TODO: implement me]]>
+              <![CDATA[The step 'user clicks Add to cart for "Sauce Labs Backpack"' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user clicks Add to cart for {string}")
+public void user_clicks_add_to_cart_for(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the product should be added to the cart")
+public void the_product_should_be_added_to_the_cart() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("cart badge should display {string}")
+public void cart_badge_should_display(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
-at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:196)
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'user clicks Add to cart for "Sauce Labs Backpack"' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user clicks Add to cart for {string}")
+public void user_clicks_add_to_cart_for(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the product should be added to the cart")
+public void the_product_should_be_added_to_the_cart() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("cart badge should display {string}")
+public void cart_badge_should_display(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
 at ✽.user clicks Add to cart for "Sauce Labs Backpack"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:56)
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.cucumber.java.PendingException -->
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:13:05 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:13:07 GMT-07:00" duration-ms="1753" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:34:09 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:34:11 GMT-07:00" duration-ms="1913" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -348,21 +396,46 @@ at ✽.user clicks Add to cart for "Sauce Labs Backpack"(file:///C:/Users/spgit/
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.java.PendingException">
+          <exception class="io.cucumber.testng.UndefinedStepException">
             <message>
-              <![CDATA[TODO: implement me]]>
+              <![CDATA[The step 'user adds "Sauce Labs Backpack" to the cart' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user adds {string} to the cart")
+public void user_adds_to_the_cart(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("cart badge should display {string}")
+public void cart_badge_should_display(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
-at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:214)
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'user adds "Sauce Labs Backpack" to the cart' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user adds {string} to the cart")
+public void user_adds_to_the_cart(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("cart badge should display {string}")
+public void cart_badge_should_display(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
 at ✽.user adds "Sauce Labs Backpack" to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:62)
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.cucumber.java.PendingException -->
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:13:07 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:13:09 GMT-07:00" duration-ms="1732" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:34:11 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:34:13 GMT-07:00" duration-ms="1881" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -375,21 +448,46 @@ at ✽.user adds "Sauce Labs Backpack" to the cart(file:///C:/Users/spgit/OneDri
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.java.PendingException">
+          <exception class="io.cucumber.testng.UndefinedStepException">
             <message>
-              <![CDATA[TODO: implement me]]>
+              <![CDATA[The step 'user clicks Add to cart for "Sauce Labs Backpack"' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user clicks Add to cart for {string}")
+public void user_clicks_add_to_cart_for(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the button for {string} should change to {string}")
+public void the_button_for_should_change_to(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
-at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:196)
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'user clicks Add to cart for "Sauce Labs Backpack"' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user clicks Add to cart for {string}")
+public void user_clicks_add_to_cart_for(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the button for {string} should change to {string}")
+public void the_button_for_should_change_to(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
 at ✽.user clicks Add to cart for "Sauce Labs Backpack"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:68)
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.cucumber.java.PendingException -->
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:13:09 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:13:10 GMT-07:00" duration-ms="1730" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:34:13 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:34:15 GMT-07:00" duration-ms="1898" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -402,21 +500,66 @@ at ✽.user clicks Add to cart for "Sauce Labs Backpack"(file:///C:/Users/spgit/
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.java.PendingException">
+          <exception class="io.cucumber.testng.UndefinedStepException">
             <message>
-              <![CDATA[TODO: implement me]]>
+              <![CDATA[The step '"Sauce Labs Backpack" is added to the cart' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("{string} is added to the cart")
+public void is_added_to_the_cart(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks Remove for {string}")
+public void user_clicks_remove_for(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the product should be removed from the cart")
+public void the_product_should_be_removed_from_the_cart() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("cart badge should not be displayed")
+public void cart_badge_should_not_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
-at Step_Def_Classes.ProductsPage.is_added_to_the_cart(ProductsPage.java:226)
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step '"Sauce Labs Backpack" is added to the cart' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("{string} is added to the cart")
+public void is_added_to_the_cart(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks Remove for {string}")
+public void user_clicks_remove_for(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the product should be removed from the cart")
+public void the_product_should_be_removed_from_the_cart() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("cart badge should not be displayed")
+public void cart_badge_should_not_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
 at ✽."Sauce Labs Backpack" is added to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:73)
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.cucumber.java.PendingException -->
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:13:10 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:13:12 GMT-07:00" duration-ms="1717" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:34:15 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:34:17 GMT-07:00" duration-ms="1877" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -429,21 +572,46 @@ at ✽."Sauce Labs Backpack" is added to the cart(file:///C:/Users/spgit/OneDriv
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.java.PendingException">
+          <exception class="io.cucumber.testng.UndefinedStepException">
             <message>
-              <![CDATA[TODO: implement me]]>
+              <![CDATA[The step 'user adds "Sauce Labs Backpack" to the cart' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user adds {string} to the cart")
+public void user_adds_to_the_cart(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("cart badge should display {string}")
+public void cart_badge_should_display(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
-at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:214)
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'user adds "Sauce Labs Backpack" to the cart' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user adds {string} to the cart")
+public void user_adds_to_the_cart(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("cart badge should display {string}")
+public void cart_badge_should_display(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
 at ✽.user adds "Sauce Labs Backpack" to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:80)
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.cucumber.java.PendingException -->
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:13:12 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-08T12:13:14 GMT-07:00" duration-ms="1791" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:34:17 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-09T18:34:19 GMT-07:00" duration-ms="1950" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -456,21 +624,56 @@ at ✽.user adds "Sauce Labs Backpack" to the cart(file:///C:/Users/spgit/OneDri
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.java.PendingException">
+          <exception class="io.cucumber.testng.UndefinedStepException">
             <message>
-              <![CDATA[TODO: implement me]]>
+              <![CDATA[The step 'user clicks on the shopping cart icon' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user clicks on the shopping cart icon")
+public void user_clicks_on_the_shopping_cart_icon() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user should be navigated to the Cart page")
+public void user_should_be_navigated_to_the_cart_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cart page should be displayed")
+public void cart_page_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
-at Step_Def_Classes.ProductsPage.user_clicks_on_the_shopping_cart_icon(ProductsPage.java:250)
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'user clicks on the shopping cart icon' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user clicks on the shopping cart icon")
+public void user_clicks_on_the_shopping_cart_icon() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user should be navigated to the Cart page")
+public void user_should_be_navigated_to_the_cart_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cart page should be displayed")
+public void cart_page_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
 at ✽.user clicks on the shopping cart icon(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:87)
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.cucumber.java.PendingException -->
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-08T12:13:14 GMT-07:00" name="tearDownClass" finished-at="2026-09-08T12:13:14 GMT-07:00" duration-ms="331" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner_Class.Runner_class@26b3fd41]" started-at="2026-09-09T18:34:19 GMT-07:00" name="tearDownClass" finished-at="2026-09-09T18:34:19 GMT-07:00" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
