@@ -1,5 +1,7 @@
 package POM_Classes;
 
+import java.time.Duration;
+import Utility.waitUtils;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -9,10 +11,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class productsPage {
 	
 	WebDriver driver;
+	waitUtils wait;
 	
 	//	@FindBy() private WebElement 
 	
@@ -34,6 +38,7 @@ public class productsPage {
 public productsPage(WebDriver driver) {
 	
 	this.driver = driver;
+	this.wait = new waitUtils(driver);
 	
 	PageFactory.initElements( driver, this);
 	
@@ -41,12 +46,13 @@ public productsPage(WebDriver driver) {
 
 public String getPageTitle() {
 	
-	String title = productsTitle.getText();
-	return title;
+	String pageTitle = productsTitle.getText();
+	
+	return pageTitle;
     }
 public boolean isDisplayedProductPage() {
 	
-	String pageTitle = driver.getTitle();
+	String pageTitle = getPageTitle();
 	
 	if(pageTitle.equals("Products")) {
 		

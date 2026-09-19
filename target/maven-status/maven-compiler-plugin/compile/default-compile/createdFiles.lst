@@ -1,0 +1,8 @@
+POM_Classes\loginPage.class
+Utility\package-info.class
+QA\package-info.class
+POM_Classes\productsPage.class
+Utility\waitUtils.class
+QA\DriverFactory.class
+POM_Classes\package-info.class
+POM_Classes\productDetailsPage.class

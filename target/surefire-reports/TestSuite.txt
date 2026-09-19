@@ -1,0 +1,87 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 63.73 s <<< FAILURE! -- in TestSuite
+Runner.Runner_class.runScenario["Verify user can view product details", "Products page functionality"](14) -- Time elapsed: 2.078 s <<< FAILURE!
+io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed "Sauce Labs Backpack"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+
+Runner.Runner_class.runScenario["Verify user can view product details", "Products page functionality"](15) -- Time elapsed: 2.114 s <<< FAILURE!
+io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed "Sauce Labs Bike Light"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+
+Runner.Runner_class.runScenario["Verify user can view product details", "Products page functionality"](16) -- Time elapsed: 2.253 s <<< FAILURE!
+io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed "Sauce Labs Bolt T-Shirt"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+
+Runner.Runner_class.runScenario["Verify user can view product details", "Products page functionality"](17) -- Time elapsed: 2.179 s <<< FAILURE!
+io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed "Sauce Labs Fleece Jacket"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+
+Runner.Runner_class.runScenario["Verify user can view product details", "Products page functionality"](18) -- Time elapsed: 2.279 s <<< FAILURE!
+org.openqa.selenium.InvalidElementStateException: 
+invalid element state
+  (Session info: chrome=152.0.7977.84)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d11c46fe3938459debecfa45cbdb56f7, clearElement {id=f.1BD3F4468E675331B968B7342186D031.d.07DBFB6F68C1D0DFC402AE2DDABC2114.e.18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\spgit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64844}, goog:processID: 14716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64844/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d11c46fe3938459debecfa45cbdb56f7)] -> xpath: //div[text()='Sauce Labs Onesie']]
+Session ID: d11c46fe3938459debecfa45cbdb56f7
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:131)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.clear(Unknown Source)
+	at POM_Classes.productsPage.clickOnProduct(productsPage.java:297)
+	at Step_Def_Classes.ProductsPage.user_clicks_on_a_product_name(ProductsPage.java:178)
+	at ✽.user clicks on a product name "Sauce Labs Onesie"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:47)
+
+Runner.Runner_class.runScenario["Verify user can view product details", "Products page functionality"](19) -- Time elapsed: 2.006 s <<< FAILURE!
+io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed "Test.allTheThings() T-Shirt (Red)"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+
+Runner.Runner_class.runScenario["Verify user can add a product to cart", "Products page functionality"](20) -- Time elapsed: 1.877 s <<< FAILURE!
+io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:216)
+	at ✽.user clicks Add to cart for "Sauce Labs Backpack"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:64)
+
+Runner.Runner_class.runScenario["Verify user can add multiple products to cart", "Products page functionality"](21) -- Time elapsed: 1.985 s <<< FAILURE!
+io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:234)
+	at ✽.user adds "Sauce Labs Backpack" to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:70)
+
+Runner.Runner_class.runScenario["Verify Add to cart button changes to Remove button", "Products page functionality"](22) -- Time elapsed: 1.875 s <<< FAILURE!
+io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:216)
+	at ✽.user clicks Add to cart for "Sauce Labs Backpack"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:76)
+
+Runner.Runner_class.runScenario["Verify user can remove a product from cart from Products page", "Products page functionality"](23) -- Time elapsed: 1.981 s <<< FAILURE!
+io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.is_added_to_the_cart(ProductsPage.java:246)
+	at ✽."Sauce Labs Backpack" is added to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:81)
+
+Runner.Runner_class.runScenario["Verify cart badge displays correct product count", "Products page functionality"](24) -- Time elapsed: 1.992 s <<< FAILURE!
+io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:234)
+	at ✽.user adds "Sauce Labs Backpack" to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:88)
+
+Runner.Runner_class.runScenario["Verify user can navigate to Cart page", "Products page functionality"](25) -- Time elapsed: 1.875 s <<< FAILURE!
+io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_clicks_on_the_shopping_cart_icon(ProductsPage.java:270)
+	at ✽.user clicks on the shopping cart icon(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:95)
+

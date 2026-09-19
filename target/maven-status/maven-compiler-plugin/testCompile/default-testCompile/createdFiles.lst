@@ -1,0 +1,7 @@
+Hooks\package-info.class
+Runner\package-info.class
+Step_Def_Classes\package-info.class
+Hooks\appHooks.class
+Step_Def_Classes\LoginPage.class
+Runner\Runner_class.class
+Step_Def_Classes\ProductsPage.class

@@ -135,7 +135,7 @@ public class ProductsPage {
 	@Then("products should be displayed in reverse alphabetical order")
 	public void products_should_be_displayed_in_reverse_alphabetical_order() {
 	    
-		boolean ReverseProductorederCheck = PrPage.checkProductsAreInReverseAlphabeticalOrder();
+	   boolean ReverseProductorederCheck = PrPage.checkProductsAreInReverseAlphabeticalOrder();
 	   Assert.assertFalse(ReverseProductorederCheck);
 	
 	}
@@ -173,15 +173,16 @@ public class ProductsPage {
 	}
 
 	@When("user clicks on a product name {string}")
-	public void user_clicks_on_a_product_name(String string) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	public void user_clicks_on_a_product_name(String prodName) {
+	   
+		PrPage.clickOnProduct(prodName);
+		
+		//Assert.assertEquals(, prodName);
 	}
 
 	@Then("product details page should be displayed")
 	public void product_details_page_should_be_displayed() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	  
 	}
 
 	@Then("product name should be displayed {string}")

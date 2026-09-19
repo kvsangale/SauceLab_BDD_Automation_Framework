@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="63.734" tests="25" errors="0" skipped="0" failures="12">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\spgit\OneDrive\Software testing_Target\Automation_Projects\Sauce_Lab_BDD_framework\target\test-classes;C:\Users\spgit\OneDrive\Software testing_Target\Automation_Projects\Sauce_Lab_BDD_framework\target\classes;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-java\4.46.0\selenium-java-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-api\4.46.0\selenium-api-4.46.0.jar;C:\Users\spgit\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.46.0\selenium-chrome-driver-4.46.0.jar;C:\Users\spgit\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.46.0\selenium-chromium-driver-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-json\4.46.0\selenium-json-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.46.0\selenium-manager-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.46.0\selenium-devtools-latest-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v148\4.46.0\selenium-devtools-v148-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v149\4.46.0\selenium-devtools-v149-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v150\4.46.0\selenium-devtools-v150-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.46.0\selenium-edge-driver-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.46.0\selenium-firefox-driver-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-http\4.46.0\selenium-http-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.46.0\selenium-ie-driver-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.46.0\selenium-remote-driver-4.46.0.jar;C:\Users\spgit\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\spgit\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\spgit\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\spgit\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\spgit\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-api\1.64.0\opentelemetry-api-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-context\1.64.0\opentelemetry-context-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-common\1.64.0\opentelemetry-common-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.64.0\opentelemetry-exporter-logging-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.64.0\opentelemetry-sdk-common-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.64.0\opentelemetry-sdk-extension-autoconfigure-spi-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.64.0\opentelemetry-sdk-extension-autoconfigure-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.64.0\opentelemetry-sdk-trace-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.64.0\opentelemetry-sdk-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.64.0\opentelemetry-sdk-metrics-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.64.0\opentelemetry-sdk-logs-1.64.0.jar;C:\Users\spgit\.m2\repository\net\bytebuddy\byte-buddy\1.18.11\byte-buddy-1.18.11.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-os\4.46.0\selenium-os-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.46.0\selenium-safari-driver-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-support\4.46.0\selenium-support-4.46.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\cucumber-java\7.34.6\cucumber-java-7.34.6.jar;C:\Users\spgit\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\spgit\.m2\repository\io\cucumber\cucumber-testng\7.34.6\cucumber-testng-7.34.6.jar;C:\Users\spgit\.m2\repository\io\cucumber\cucumber-core\7.34.6\cucumber-core-7.34.6.jar;C:\Users\spgit\.m2\repository\io\cucumber\cucumber-gherkin\7.34.6\cucumber-gherkin-7.34.6.jar;C:\Users\spgit\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.34.6\cucumber-gherkin-messages-7.34.6.jar;C:\Users\spgit\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\messages-ndjson\0.3.5\messages-ndjson-0.3.5.jar;C:\Users\spgit\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\spgit\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\cucumber-expressions\18.1.0\cucumber-expressions-18.1.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\spgit\.m2\repository\io\cucumber\datatable\7.34.6\datatable-7.34.6.jar;C:\Users\spgit\.m2\repository\io\cucumber\cucumber-plugin\7.34.6\cucumber-plugin-7.34.6.jar;C:\Users\spgit\.m2\repository\io\cucumber\docstring\7.34.6\docstring-7.34.6.jar;C:\Users\spgit\.m2\repository\io\cucumber\html-formatter\22.3.0\html-formatter-22.3.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\spgit\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\spgit\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\spgit\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\spgit\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\spgit\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\spgit\.m2\repository\com\aventstack\extentreports\5.1.0\extentreports-5.1.0.jar;C:\Users\spgit\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\spgit\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\spgit\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\spgit\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\spgit\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\spgit\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\spgit\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\spgit\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\spgit\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\spgit\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\spgit\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\spgit\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\spgit\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\spgit\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\spgit\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\spgit\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\spgit\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\spgit\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\spgit\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\spgit\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\spgit\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\spgit\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\spgit\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\spgit\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\spgit\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\spgit\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\spgit\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\spgit\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\spgit\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\spgit\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\spgit\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\spgit\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\spgit\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\spgit\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\spgit\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\spgit\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\spgit\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\spgit\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\spgit\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\spgit\AppData\Local\Temp\surefire10999359152999066002\surefirebooter-20260918173119363_3.jar C:\Users\spgit\AppData\Local\Temp\surefire10999359152999066002 2026-09-18T17-31-19_048-jvmRun1 surefire-20260918173119363_1tmp surefire_0-20260918173119363_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\spgit\OneDrive\Software testing_Target\Automation_Projects\Sauce_Lab_BDD_framework\target\test-classes;C:\Users\spgit\OneDrive\Software testing_Target\Automation_Projects\Sauce_Lab_BDD_framework\target\classes;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-java\4.46.0\selenium-java-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-api\4.46.0\selenium-api-4.46.0.jar;C:\Users\spgit\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.46.0\selenium-chrome-driver-4.46.0.jar;C:\Users\spgit\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.46.0\selenium-chromium-driver-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-json\4.46.0\selenium-json-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.46.0\selenium-manager-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.46.0\selenium-devtools-latest-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v148\4.46.0\selenium-devtools-v148-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v149\4.46.0\selenium-devtools-v149-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v150\4.46.0\selenium-devtools-v150-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.46.0\selenium-edge-driver-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.46.0\selenium-firefox-driver-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-http\4.46.0\selenium-http-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.46.0\selenium-ie-driver-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.46.0\selenium-remote-driver-4.46.0.jar;C:\Users\spgit\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\spgit\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\spgit\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\spgit\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\spgit\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-api\1.64.0\opentelemetry-api-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-context\1.64.0\opentelemetry-context-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-common\1.64.0\opentelemetry-common-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.64.0\opentelemetry-exporter-logging-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.64.0\opentelemetry-sdk-common-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.64.0\opentelemetry-sdk-extension-autoconfigure-spi-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.64.0\opentelemetry-sdk-extension-autoconfigure-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.64.0\opentelemetry-sdk-trace-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.64.0\opentelemetry-sdk-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.64.0\opentelemetry-sdk-metrics-1.64.0.jar;C:\Users\spgit\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.64.0\opentelemetry-sdk-logs-1.64.0.jar;C:\Users\spgit\.m2\repository\net\bytebuddy\byte-buddy\1.18.11\byte-buddy-1.18.11.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-os\4.46.0\selenium-os-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.46.0\selenium-safari-driver-4.46.0.jar;C:\Users\spgit\.m2\repository\org\seleniumhq\selenium\selenium-support\4.46.0\selenium-support-4.46.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\cucumber-java\7.34.6\cucumber-java-7.34.6.jar;C:\Users\spgit\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\spgit\.m2\repository\io\cucumber\cucumber-testng\7.34.6\cucumber-testng-7.34.6.jar;C:\Users\spgit\.m2\repository\io\cucumber\cucumber-core\7.34.6\cucumber-core-7.34.6.jar;C:\Users\spgit\.m2\repository\io\cucumber\cucumber-gherkin\7.34.6\cucumber-gherkin-7.34.6.jar;C:\Users\spgit\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.34.6\cucumber-gherkin-messages-7.34.6.jar;C:\Users\spgit\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\messages-ndjson\0.3.5\messages-ndjson-0.3.5.jar;C:\Users\spgit\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\spgit\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\cucumber-expressions\18.1.0\cucumber-expressions-18.1.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\spgit\.m2\repository\io\cucumber\datatable\7.34.6\datatable-7.34.6.jar;C:\Users\spgit\.m2\repository\io\cucumber\cucumber-plugin\7.34.6\cucumber-plugin-7.34.6.jar;C:\Users\spgit\.m2\repository\io\cucumber\docstring\7.34.6\docstring-7.34.6.jar;C:\Users\spgit\.m2\repository\io\cucumber\html-formatter\22.3.0\html-formatter-22.3.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\spgit\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\spgit\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\spgit\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\spgit\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\spgit\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\spgit\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\spgit\.m2\repository\com\aventstack\extentreports\5.1.0\extentreports-5.1.0.jar;C:\Users\spgit\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\spgit\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\spgit\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\spgit\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\spgit\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\spgit\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\spgit\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\spgit\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\spgit\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\spgit\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\spgit\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\spgit\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\spgit\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\spgit\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\spgit\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\spgit\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\spgit\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\spgit\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\spgit\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\spgit\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\spgit\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\spgit\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\spgit\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\spgit\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\spgit\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\spgit\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\spgit\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\spgit\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\spgit\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\spgit\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\spgit\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\spgit\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\spgit\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\spgit\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\spgit\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\spgit\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\spgit\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\spgit\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\spgit\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\spgit"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\spgit\OneDrive\Software testing_Target\Automation_Projects\Sauce_Lab_BDD_framework"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\spgit\AppData\Local\Temp\surefire10999359152999066002\surefirebooter-20260918173119363_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
+    <property name="user.name" value="spgit"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\spgit\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\spgit\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="C:\Users\spgit\OneDrive\Software testing_Target\Automation_Projects\Sauce_Lab_BDD_framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/spgit/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.10.v20260205-0638/jre/bin/server;C:/Users/spgit/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.10.v20260205-0638/jre/bin;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\spgit\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-25\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1\bin;C:\Users\spgit\AppData\Local\GitHubDesktop\bin;C:\Program Files\Apache\Maven\apache-maven-3.9.12\bin;C:\Users\spgit\AppData\Roaming\npm;C:\Users\spgit\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\spgit\eclipse\dsl-2026-033\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Validate the Title&quot;, &quot;Login Functionality&quot;](1)" classname="Runner.Runner_class" time="1.976">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Validate the Title                  &amp#27;[90m# src/test/resources/SauceAppTests/login.feature:3&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser is on the Login page&amp#27;[39m           &amp#27;[90m# Step_Def_Classes.LoginPage.user_is_on_the_login_page()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser should see the login page title&amp#27;[39m &amp#27;[90m# Step_Def_Classes.LoginPage.user_should_see_the_login_page_title()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Sept 18, 2026 5:31:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with valid credentials&quot;, &quot;Login Functionality&quot;](2)" classname="Runner.Runner_class" time="2.682">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Login with valid credentials       &amp#27;[90m# src/test/resources/SauceAppTests/login.feature:15&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser is on the Login page&amp#27;[39m                  &amp#27;[90m# Step_Def_Classes.LoginPage.user_is_on_the_login_page()&amp#27;[39m
+Username is entered successfully  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser Enters valid user name &amp#27;[1m"standard_user"&amp#27;[22m&amp#27;[39m &amp#27;[90m# Step_Def_Classes.LoginPage.user_enters_valid_user_name(java.lang.String)&amp#27;[39m
+Password is entered successfully  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser Enters valid password &amp#27;[1m"secret_sauce"&amp#27;[22m&amp#27;[39m    &amp#27;[90m# Step_Def_Classes.LoginPage.user_enters_valid_password(java.lang.String)&amp#27;[39m
+clicked on login button successfully  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser Clicks on login button&amp#27;[39m                  &amp#27;[90m# Step_Def_Classes.LoginPage.user_clicks_on_login_button()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser should see &amp#27;[1m"Products"&amp#27;[22m&amp#27;[39m                  &amp#27;[90m# Step_Def_Classes.LoginPage.user_should_see(java.lang.String)&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:31:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with valid credentials&quot;, &quot;Login Functionality&quot;](3)" classname="Runner.Runner_class" time="2.543">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Login with valid credentials      &amp#27;[90m# src/test/resources/SauceAppTests/login.feature:16&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser is on the Login page&amp#27;[39m                 &amp#27;[90m# Step_Def_Classes.LoginPage.user_is_on_the_login_page()&amp#27;[39m
+Username is entered successfully  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser Enters valid user name &amp#27;[1m"problem_user"&amp#27;[22m&amp#27;[39m &amp#27;[90m# Step_Def_Classes.LoginPage.user_enters_valid_user_name(java.lang.String)&amp#27;[39m
+Password is entered successfully  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser Enters valid password &amp#27;[1m"secret_sauce"&amp#27;[22m&amp#27;[39m   &amp#27;[90m# Step_Def_Classes.LoginPage.user_enters_valid_password(java.lang.String)&amp#27;[39m
+clicked on login button successfully  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser Clicks on login button&amp#27;[39m                 &amp#27;[90m# Step_Def_Classes.LoginPage.user_clicks_on_login_button()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser should see &amp#27;[1m"Products"&amp#27;[22m&amp#27;[39m                 &amp#27;[90m# Step_Def_Classes.LoginPage.user_should_see(java.lang.String)&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:31:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with valid credentials&quot;, &quot;Login Functionality&quot;](4)" classname="Runner.Runner_class" time="7.378">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Login with valid credentials                 &amp#27;[90m# src/test/resources/SauceAppTests/login.feature:17&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser is on the Login page&amp#27;[39m                            &amp#27;[90m# Step_Def_Classes.LoginPage.user_is_on_the_login_page()&amp#27;[39m
+Username is entered successfully  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser Enters valid user name &amp#27;[1m"performance_glitch_user"&amp#27;[22m&amp#27;[39m &amp#27;[90m# Step_Def_Classes.LoginPage.user_enters_valid_user_name(java.lang.String)&amp#27;[39m
+Password is entered successfully  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser Enters valid password &amp#27;[1m"secret_sauce"&amp#27;[22m&amp#27;[39m              &amp#27;[90m# Step_Def_Classes.LoginPage.user_enters_valid_password(java.lang.String)&amp#27;[39m
+clicked on login button successfully  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser Clicks on login button&amp#27;[39m                            &amp#27;[90m# Step_Def_Classes.LoginPage.user_clicks_on_login_button()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser should see &amp#27;[1m"Products"&amp#27;[22m&amp#27;[39m                            &amp#27;[90m# Step_Def_Classes.LoginPage.user_should_see(java.lang.String)&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:31:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with valid credentials&quot;, &quot;Login Functionality&quot;](5)" classname="Runner.Runner_class" time="2.269">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Login with valid credentials    &amp#27;[90m# src/test/resources/SauceAppTests/login.feature:18&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser is on the Login page&amp#27;[39m               &amp#27;[90m# Step_Def_Classes.LoginPage.user_is_on_the_login_page()&amp#27;[39m
+Username is entered successfully  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser Enters valid user name &amp#27;[1m"error_user"&amp#27;[22m&amp#27;[39m &amp#27;[90m# Step_Def_Classes.LoginPage.user_enters_valid_user_name(java.lang.String)&amp#27;[39m
+Password is entered successfully  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser Enters valid password &amp#27;[1m"secret_sauce"&amp#27;[22m&amp#27;[39m &amp#27;[90m# Step_Def_Classes.LoginPage.user_enters_valid_password(java.lang.String)&amp#27;[39m
+clicked on login button successfully  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser Clicks on login button&amp#27;[39m               &amp#27;[90m# Step_Def_Classes.LoginPage.user_clicks_on_login_button()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser should see &amp#27;[1m"Products"&amp#27;[22m&amp#27;[39m               &amp#27;[90m# Step_Def_Classes.LoginPage.user_should_see(java.lang.String)&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:31:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with valid credentials&quot;, &quot;Login Functionality&quot;](6)" classname="Runner.Runner_class" time="2.291">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Login with valid credentials     &amp#27;[90m# src/test/resources/SauceAppTests/login.feature:19&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser is on the Login page&amp#27;[39m                &amp#27;[90m# Step_Def_Classes.LoginPage.user_is_on_the_login_page()&amp#27;[39m
+Username is entered successfully  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser Enters valid user name &amp#27;[1m"visual_user"&amp#27;[22m&amp#27;[39m &amp#27;[90m# Step_Def_Classes.LoginPage.user_enters_valid_user_name(java.lang.String)&amp#27;[39m
+Password is entered successfully  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser Enters valid password &amp#27;[1m"secret_sauce"&amp#27;[22m&amp#27;[39m  &amp#27;[90m# Step_Def_Classes.LoginPage.user_enters_valid_password(java.lang.String)&amp#27;[39m
+clicked on login button successfully  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser Clicks on login button&amp#27;[39m                &amp#27;[90m# Step_Def_Classes.LoginPage.user_clicks_on_login_button()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser should see &amp#27;[1m"Products"&amp#27;[22m&amp#27;[39m                &amp#27;[90m# Step_Def_Classes.LoginPage.user_should_see(java.lang.String)&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:31:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Products page is displayed successfully&quot;, &quot;Products page functionality&quot;](7)" classname="Runner.Runner_class" time="2.349">
+    <system-out><![CDATA[
+@smoke
+&amp#27;[1mScenario:&amp#27;[22m Verify Products page is displayed successfully &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:7&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m      &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is on the Products page&amp#27;[39m                   &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_on_the_products_page()&amp#27;[39m
+Page is displayedProducts
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mProducts page should be displayed&amp#27;[39m               &amp#27;[90m# Step_Def_Classes.ProductsPage.products_page_should_be_displayed()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mProducts page title should be &amp#27;[1m"Products"&amp#27;[22m&amp#27;[39m         &amp#27;[90m# Step_Def_Classes.ProductsPage.products_page_title_should_be(java.lang.String)&amp#27;[39m
+[Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mproduct list should be displayed&amp#27;[39m                 &amp#27;[90m# Step_Def_Classes.ProductsPage.product_list_should_be_displayed()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:31:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify all products are displayed on Products page&quot;, &quot;Products page functionality&quot;](8)" classname="Runner.Runner_class" time="2.557">
+    <system-out><![CDATA[
+@regression
+&amp#27;[1mScenario:&amp#27;[22m Verify all products are displayed on Products page &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:14&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m          &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+[Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mall available products should be displayed&amp#27;[39m          &amp#27;[90m# Step_Def_Classes.ProductsPage.all_available_products_should_be_displayed()&amp#27;[39m
+[Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22meach product should have a product name&amp#27;[39m              &amp#27;[90m# Step_Def_Classes.ProductsPage.each_product_should_have_a_product_name()&amp#27;[39m
+[$29.99, $9.99, $15.99, $49.99, $7.99, $15.99]
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22meach product should have a product price&amp#27;[39m             &amp#27;[90m# Step_Def_Classes.ProductsPage.each_product_should_have_a_product_price()&amp#27;[39m
+number of add to cart button present on products page6
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22meach product should have an Add to cart button&amp#27;[39m       &amp#27;[90m# Step_Def_Classes.ProductsPage.each_product_should_have_an_add_to_cart_button()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:31:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify product price is displayed correctly&quot;, &quot;Products page functionality&quot;](9)" classname="Runner.Runner_class" time="2.723">
+    <system-out><![CDATA[
+@regression
+&amp#27;[1mScenario:&amp#27;[22m Verify product price is displayed correctly  &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:21&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m    &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+Product list verified[Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser views the product list&amp#27;[39m                   &amp#27;[90m# Step_Def_Classes.ProductsPage.user_views_the_product_list()&amp#27;[39m
+Each product contains the price tag[$29.99, $9.99, $15.99, $49.99, $7.99, $15.99]
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22meach product should display its correct price&amp#27;[39m &amp#27;[90m# Step_Def_Classes.ProductsPage.each_product_should_display_its_correct_price()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:31:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can sort products by Name A to Z&quot;, &quot;Products page functionality&quot;](10)" classname="Runner.Runner_class" time="2.58">
+    <system-out><![CDATA[
+@regression
+&amp#27;[1mScenario:&amp#27;[22m Verify user can sort products by Name A to Z           &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:26&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m              &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+Name (A to Z)
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser selects &amp#27;[1m"Name (A to Z)"&amp#27;[22m from the sort dropdownAtoZ&amp#27;[39m &amp#27;[90m# Step_Def_Classes.ProductsPage.user_selects_from_the_sort_dropdownAtoZ(java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mproducts should be displayed in alphabetical order&amp#27;[39m      &amp#27;[90m# Step_Def_Classes.ProductsPage.products_should_be_displayed_in_alphabetical_order()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:31:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can sort products by Name Z to A&quot;, &quot;Products page functionality&quot;](11)" classname="Runner.Runner_class" time="2.768">
+    <system-out><![CDATA[
+@regression
+&amp#27;[1mScenario:&amp#27;[22m Verify user can sort products by Name Z to A              &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:31&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m                 &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+Name (Z to A)
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser selects &amp#27;[1m"Name (Z to A)"&amp#27;[22m from the sort dropdownZtoA&amp#27;[39m    &amp#27;[90m# Step_Def_Classes.ProductsPage.user_selects_from_the_sort_dropdownZtoA(java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mproducts should be displayed in reverse alphabetical order&amp#27;[39m &amp#27;[90m# Step_Def_Classes.ProductsPage.products_should_be_displayed_in_reverse_alphabetical_order()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:31:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can sort products by Price low to high&quot;, &quot;Products page functionality&quot;](12)" classname="Runner.Runner_class" time="2.851">
+    <system-out><![CDATA[
+@regression
+&amp#27;[1mScenario:&amp#27;[22m Verify user can sort products by Price low to high       &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:36&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m                &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser selects &amp#27;[1m"Price (low to high)"&amp#27;[22m from the sort dropdown&amp#27;[39m &amp#27;[90m# Step_Def_Classes.ProductsPage.user_selects_from_the_sort_dropdown(java.lang.String)&amp#27;[39m
+[7.99, 9.99, 15.99, 15.99, 29.99, 49.99]
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mproducts should be displayed in ascending order of price&amp#27;[39m  &amp#27;[90m# Step_Def_Classes.ProductsPage.products_should_be_displayed_in_ascending_order_of_price()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:31:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can sort products by Price high to low&quot;, &quot;Products page functionality&quot;](13)" classname="Runner.Runner_class" time="3.07">
+    <system-out><![CDATA[
+@regression
+&amp#27;[1mScenario:&amp#27;[22m Verify user can sort products by Price high to low       &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:41&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m                &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser selects &amp#27;[1m"Price (high to low)"&amp#27;[22m from the sort dropdown&amp#27;[39m &amp#27;[90m# Step_Def_Classes.ProductsPage.user_selects_from_the_sort_dropdown(java.lang.String)&amp#27;[39m
+[49.99, 29.99, 15.99, 15.99, 9.99, 7.99]
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mproducts should be displayed in descending order of price&amp#27;[39m &amp#27;[90m# Step_Def_Classes.ProductsPage.products_should_be_displayed_in_descending_order_of_price()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:31:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can view product details&quot;, &quot;Products page functionality&quot;](14)" classname="Runner.Runner_class" time="2.078">
+    <failure message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed "Sauce Labs Backpack"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+]]></failure>
+    <system-out><![CDATA[
+@regression
+&amp#27;[1mScenario Outline:&amp#27;[22m Verify user can view product details                                                                                                                                   &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:55&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m                                                                                                                                      &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser clicks on a product name &amp#27;[1m"Sauce Labs Backpack"&amp#27;[22m&amp#27;[39m                                                                                                                             &amp#27;[90m# Step_Def_Classes.ProductsPage.user_clicks_on_a_product_name(java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mproduct details page should be displayed&amp#27;[39m                                                                                                                                        &amp#27;[90m# Step_Def_Classes.ProductsPage.product_details_page_should_be_displayed()&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mAnd &amp#27;[22mproduct name should be displayed &amp#27;[1m"Sauce Labs Backpack"&amp#27;[22m&amp#27;[39m                                                                                                                           &amp#27;[90m# Step_Def_Classes.ProductsPage.product_name_should_be_displayed(java.lang.String)&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)&amp#27;[39m
+        &amp#27;[33m	at ✽.product name should be displayed "Sauce Labs Backpack"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct price should be displayed &amp#27;[1m"$29.99"&amp#27;[22m&amp#27;[39m                                                                                                                                       &amp#27;[90m# Step_Def_Classes.ProductsPage.product_price_should_be_displayed(java.lang.String)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct description should be displayed &amp#27;[1m"carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection."&amp#27;[22m&amp#27;[39m &amp#27;[90m# Step_Def_Classes.ProductsPage.product_description_should_be_displayed(java.lang.String)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct image should be displayed &amp#27;[1m"<image>"&amp#27;[22m&amp#27;[39m                                                                                                                                      &amp#27;[90m# Step_Def_Classes.ProductsPage.product_image_should_be_displayed(java.lang.String)&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:31:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can view product details&quot;, &quot;Products page functionality&quot;](15)" classname="Runner.Runner_class" time="2.114">
+    <failure message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed "Sauce Labs Bike Light"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+]]></failure>
+    <system-out><![CDATA[
+@regression
+&amp#27;[1mScenario Outline:&amp#27;[22m Verify user can view product details                                                                                                                                                           &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:56&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m                                                                                                                                                              &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser clicks on a product name &amp#27;[1m"Sauce Labs Bike Light"&amp#27;[22m&amp#27;[39m                                                                                                                                                   &amp#27;[90m# Step_Def_Classes.ProductsPage.user_clicks_on_a_product_name(java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mproduct details page should be displayed&amp#27;[39m                                                                                                                                                                &amp#27;[90m# Step_Def_Classes.ProductsPage.product_details_page_should_be_displayed()&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mAnd &amp#27;[22mproduct name should be displayed &amp#27;[1m"Sauce Labs Bike Light"&amp#27;[22m&amp#27;[39m                                                                                                                                                 &amp#27;[90m# Step_Def_Classes.ProductsPage.product_name_should_be_displayed(java.lang.String)&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)&amp#27;[39m
+        &amp#27;[33m	at ✽.product name should be displayed "Sauce Labs Bike Light"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct price should be displayed &amp#27;[1m"$9.99"&amp#27;[22m&amp#27;[39m                                                                                                                                                                &amp#27;[90m# Step_Def_Classes.ProductsPage.product_price_should_be_displayed(java.lang.String)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct description should be displayed &amp#27;[1m"A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included"&amp#27;[22m&amp#27;[39m &amp#27;[90m# Step_Def_Classes.ProductsPage.product_description_should_be_displayed(java.lang.String)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct image should be displayed &amp#27;[1m"<image>"&amp#27;[22m&amp#27;[39m                                                                                                                                                              &amp#27;[90m# Step_Def_Classes.ProductsPage.product_image_should_be_displayed(java.lang.String)&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:32:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can view product details&quot;, &quot;Products page functionality&quot;](16)" classname="Runner.Runner_class" time="2.253">
+    <failure message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed "Sauce Labs Bolt T-Shirt"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+]]></failure>
+    <system-out><![CDATA[
+@regression
+&amp#27;[1mScenario Outline:&amp#27;[22m Verify user can view product details                                                                                                                                            &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:57&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m                                                                                                                                               &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser clicks on a product name &amp#27;[1m"Sauce Labs Bolt T-Shirt"&amp#27;[22m&amp#27;[39m                                                                                                                                  &amp#27;[90m# Step_Def_Classes.ProductsPage.user_clicks_on_a_product_name(java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mproduct details page should be displayed&amp#27;[39m                                                                                                                                                 &amp#27;[90m# Step_Def_Classes.ProductsPage.product_details_page_should_be_displayed()&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mAnd &amp#27;[22mproduct name should be displayed &amp#27;[1m"Sauce Labs Bolt T-Shirt"&amp#27;[22m&amp#27;[39m                                                                                                                                &amp#27;[90m# Step_Def_Classes.ProductsPage.product_name_should_be_displayed(java.lang.String)&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)&amp#27;[39m
+        &amp#27;[33m	at ✽.product name should be displayed "Sauce Labs Bolt T-Shirt"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct price should be displayed &amp#27;[1m"$15.99"&amp#27;[22m&amp#27;[39m                                                                                                                                                &amp#27;[90m# Step_Def_Classes.ProductsPage.product_price_should_be_displayed(java.lang.String)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct description should be displayed &amp#27;[1m"Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt."&amp#27;[22m&amp#27;[39m &amp#27;[90m# Step_Def_Classes.ProductsPage.product_description_should_be_displayed(java.lang.String)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct image should be displayed &amp#27;[1m"<image>"&amp#27;[22m&amp#27;[39m                                                                                                                                               &amp#27;[90m# Step_Def_Classes.ProductsPage.product_image_should_be_displayed(java.lang.String)&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:32:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can view product details&quot;, &quot;Products page functionality&quot;](17)" classname="Runner.Runner_class" time="2.179">
+    <failure message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed "Sauce Labs Fleece Jacket"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+]]></failure>
+    <system-out><![CDATA[
+@regression
+&amp#27;[1mScenario Outline:&amp#27;[22m Verify user can view product details                                                                                                                                                                  &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:58&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m                                                                                                                                                                     &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser clicks on a product name &amp#27;[1m"Sauce Labs Fleece Jacket"&amp#27;[22m&amp#27;[39m                                                                                                                                                       &amp#27;[90m# Step_Def_Classes.ProductsPage.user_clicks_on_a_product_name(java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mproduct details page should be displayed&amp#27;[39m                                                                                                                                                                       &amp#27;[90m# Step_Def_Classes.ProductsPage.product_details_page_should_be_displayed()&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mAnd &amp#27;[22mproduct name should be displayed &amp#27;[1m"Sauce Labs Fleece Jacket"&amp#27;[22m&amp#27;[39m                                                                                                                                                     &amp#27;[90m# Step_Def_Classes.ProductsPage.product_name_should_be_displayed(java.lang.String)&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)&amp#27;[39m
+        &amp#27;[33m	at ✽.product name should be displayed "Sauce Labs Fleece Jacket"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct price should be displayed &amp#27;[1m"$49.99"&amp#27;[22m&amp#27;[39m                                                                                                                                                                      &amp#27;[90m# Step_Def_Classes.ProductsPage.product_price_should_be_displayed(java.lang.String)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct description should be displayed &amp#27;[1m"It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office"&amp#27;[22m&amp#27;[39m &amp#27;[90m# Step_Def_Classes.ProductsPage.product_description_should_be_displayed(java.lang.String)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct image should be displayed &amp#27;[1m"<image>"&amp#27;[22m&amp#27;[39m                                                                                                                                                                     &amp#27;[90m# Step_Def_Classes.ProductsPage.product_image_should_be_displayed(java.lang.String)&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:32:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can view product details&quot;, &quot;Products page functionality&quot;](18)" classname="Runner.Runner_class" time="2.279">
+    <failure message="invalid element state&#10;  (Session info: chrome=152.0.7977.84)&#10;Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d11c46fe3938459debecfa45cbdb56f7, clearElement {id=f.1BD3F4468E675331B968B7342186D031.d.07DBFB6F68C1D0DFC402AE2DDABC2114.e.18}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\spgit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64844}, goog:processID: 14716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64844/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (d11c46fe3938459debecfa45cbdb56f7)] -&gt; xpath: //div[text()=&apos;Sauce Labs Onesie&apos;]]&#10;Session ID: d11c46fe3938459debecfa45cbdb56f7" type="org.openqa.selenium.InvalidElementStateException"><![CDATA[org.openqa.selenium.InvalidElementStateException: 
+invalid element state
+  (Session info: chrome=152.0.7977.84)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d11c46fe3938459debecfa45cbdb56f7, clearElement {id=f.1BD3F4468E675331B968B7342186D031.d.07DBFB6F68C1D0DFC402AE2DDABC2114.e.18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\spgit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64844}, goog:processID: 14716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64844/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d11c46fe3938459debecfa45cbdb56f7)] -> xpath: //div[text()='Sauce Labs Onesie']]
+Session ID: d11c46fe3938459debecfa45cbdb56f7
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:131)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.clear(Unknown Source)
+	at POM_Classes.productsPage.clickOnProduct(productsPage.java:297)
+	at Step_Def_Classes.ProductsPage.user_clicks_on_a_product_name(ProductsPage.java:178)
+	at ✽.user clicks on a product name "Sauce Labs Onesie"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:47)
+]]></failure>
+    <system-out><![CDATA[
+@regression
+&amp#27;[1mScenario Outline:&amp#27;[22m Verify user can view product details                                                                                                                                                            &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:59&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m                                                                                                                                                               &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+  &amp#27;[31m✘&amp#27;[39m &amp#27;[31m&amp#27;[1mWhen &amp#27;[22muser clicks on a product name &amp#27;[1m"Sauce Labs Onesie"&amp#27;[22m&amp#27;[39m                                                                                                                                                        &amp#27;[90m# Step_Def_Classes.ProductsPage.user_clicks_on_a_product_name(java.lang.String)&amp#27;[39m
+        &amp#27;[31morg.openqa.selenium.InvalidElementStateException: invalid element state&amp#27;[39m
+        &amp#27;[31m  (Session info: chrome=152.0.7977.84)&amp#27;[39m
+        &amp#27;[31mBuild info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'&amp#27;[39m
+        &amp#27;[31mSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'&amp#27;[39m
+        &amp#27;[31mDriver info: org.openqa.selenium.chrome.ChromeDriver&amp#27;[39m
+        &amp#27;[31mCommand: [d11c46fe3938459debecfa45cbdb56f7, clearElement {id=f.1BD3F4468E675331B968B7342186D031.d.07DBFB6F68C1D0DFC402AE2DDABC2114.e.18}]&amp#27;[39m
+        &amp#27;[31mCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\spgit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64844}, goog:processID: 14716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64844/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&amp#27;[39m
+        &amp#27;[31mElement: [[ChromeDriver: chrome on windows (d11c46fe3938459debecfa45cbdb56f7)] -> xpath: //div[text()='Sauce Labs Onesie']]&amp#27;[39m
+        &amp#27;[31mSession ID: d11c46fe3938459debecfa45cbdb56f7&amp#27;[39m
+        &amp#27;[31m	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)&amp#27;[39m
+        &amp#27;[31m	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)&amp#27;[39m
+        &amp#27;[31m	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)&amp#27;[39m
+        &amp#27;[31m	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)&amp#27;[39m
+        &amp#27;[31m	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)&amp#27;[39m
+        &amp#27;[31m	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)&amp#27;[39m
+        &amp#27;[31m	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)&amp#27;[39m
+        &amp#27;[31m	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)&amp#27;[39m
+        &amp#27;[31m	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:131)&amp#27;[39m
+        &amp#27;[31m	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)&amp#27;[39m
+        &amp#27;[31m	at java.base/java.lang.reflect.Method.invoke(Method.java:565)&amp#27;[39m
+        &amp#27;[31m	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)&amp#27;[39m
+        &amp#27;[31m	at jdk.proxy2/jdk.proxy2.$Proxy23.clear(Unknown Source)&amp#27;[39m
+        &amp#27;[31m	at POM_Classes.productsPage.clickOnProduct(productsPage.java:297)&amp#27;[39m
+        &amp#27;[31m	at Step_Def_Classes.ProductsPage.user_clicks_on_a_product_name(ProductsPage.java:178)&amp#27;[39m
+        &amp#27;[31m	at ✽.user clicks on a product name "Sauce Labs Onesie"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:47)&amp#27;[39m
+
+        &amp#27;[34mEmbedding [B@601d295 [image/png 318624 bytes]&amp#27;[39m
+
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mproduct details page should be displayed&amp#27;[39m                                                                                                                                                                 &amp#27;[90m# Step_Def_Classes.ProductsPage.product_details_page_should_be_displayed()&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct name should be displayed &amp#27;[1m"Sauce Labs Onesie"&amp#27;[22m&amp#27;[39m                                                                                                                                                      &amp#27;[90m# Step_Def_Classes.ProductsPage.product_name_should_be_displayed(java.lang.String)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct price should be displayed &amp#27;[1m"$7.99"&amp#27;[22m&amp#27;[39m                                                                                                                                                                 &amp#27;[90m# Step_Def_Classes.ProductsPage.product_price_should_be_displayed(java.lang.String)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct description should be displayed &amp#27;[1m"Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel."&amp#27;[22m&amp#27;[39m &amp#27;[90m# Step_Def_Classes.ProductsPage.product_description_should_be_displayed(java.lang.String)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct image should be displayed &amp#27;[1m"<image>"&amp#27;[22m&amp#27;[39m                                                                                                                                                               &amp#27;[90m# Step_Def_Classes.ProductsPage.product_image_should_be_displayed(java.lang.String)&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:32:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can view product details&quot;, &quot;Products page functionality&quot;](19)" classname="Runner.Runner_class" time="2.006">
+    <failure message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed "Test.allTheThings() T-Shirt (Red)"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+]]></failure>
+    <system-out><![CDATA[
+@regression
+&amp#27;[1mScenario Outline:&amp#27;[22m Verify user can view product details                                                                                                                                                      &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:60&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m                                                                                                                                                         &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser clicks on a product name &amp#27;[1m"Test.allTheThings() T-Shirt (Red)"&amp#27;[22m&amp#27;[39m                                                                                                                                  &amp#27;[90m# Step_Def_Classes.ProductsPage.user_clicks_on_a_product_name(java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mproduct details page should be displayed&amp#27;[39m                                                                                                                                                           &amp#27;[90m# Step_Def_Classes.ProductsPage.product_details_page_should_be_displayed()&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mAnd &amp#27;[22mproduct name should be displayed &amp#27;[1m"Test.allTheThings() T-Shirt (Red)"&amp#27;[22m&amp#27;[39m                                                                                                                                &amp#27;[90m# Step_Def_Classes.ProductsPage.product_name_should_be_displayed(java.lang.String)&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)&amp#27;[39m
+        &amp#27;[33m	at ✽.product name should be displayed "Test.allTheThings() T-Shirt (Red)"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct price should be displayed &amp#27;[1m"$15.99"&amp#27;[22m&amp#27;[39m                                                                                                                                                          &amp#27;[90m# Step_Def_Classes.ProductsPage.product_price_should_be_displayed(java.lang.String)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct description should be displayed &amp#27;[1m"This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton."&amp#27;[22m&amp#27;[39m &amp#27;[90m# Step_Def_Classes.ProductsPage.product_description_should_be_displayed(java.lang.String)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mproduct image should be displayed &amp#27;[1m"<image>"&amp#27;[22m&amp#27;[39m                                                                                                                                                         &amp#27;[90m# Step_Def_Classes.ProductsPage.product_image_should_be_displayed(java.lang.String)&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:32:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can add a product to cart&quot;, &quot;Products page functionality&quot;](20)" classname="Runner.Runner_class" time="1.877">
+    <failure message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:216)
+	at ✽.user clicks Add to cart for "Sauce Labs Backpack"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:64)
+]]></failure>
+    <system-out><![CDATA[
+@smoke
+&amp#27;[1mScenario:&amp#27;[22m Verify user can add a product to cart            &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:63&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m        &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mWhen &amp#27;[22muser clicks Add to cart for &amp#27;[1m"Sauce Labs Backpack"&amp#27;[22m&amp#27;[39m &amp#27;[90m# Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(java.lang.String)&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:216)&amp#27;[39m
+        &amp#27;[33m	at ✽.user clicks Add to cart for "Sauce Labs Backpack"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:64)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe product should be added to the cart&amp#27;[39m           &amp#27;[90m# Step_Def_Classes.ProductsPage.the_product_should_be_added_to_the_cart()&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mcart badge should display &amp#27;[1m"1"&amp#27;[22m&amp#27;[39m                      &amp#27;[90m# Step_Def_Classes.ProductsPage.cart_badge_should_display(java.lang.String)&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:32:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can add multiple products to cart&quot;, &quot;Products page functionality&quot;](21)" classname="Runner.Runner_class" time="1.985">
+    <failure message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:234)
+	at ✽.user adds "Sauce Labs Backpack" to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:70)
+]]></failure>
+    <system-out><![CDATA[
+@regression
+&amp#27;[1mScenario:&amp#27;[22m Verify user can add multiple products to cart &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:69&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m     &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mWhen &amp#27;[22muser adds &amp#27;[1m"Sauce Labs Backpack"&amp#27;[22m to the cart&amp#27;[39m    &amp#27;[90m# Step_Def_Classes.ProductsPage.user_adds_to_the_cart(java.lang.String)&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:234)&amp#27;[39m
+        &amp#27;[33m	at ✽.user adds "Sauce Labs Backpack" to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:70)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22muser adds &amp#27;[1m"Sauce Labs Bike Light"&amp#27;[22m to the cart&amp#27;[39m   &amp#27;[90m# Step_Def_Classes.ProductsPage.user_adds_to_the_cart(java.lang.String)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mcart badge should display &amp#27;[1m"2"&amp#27;[22m&amp#27;[39m                  &amp#27;[90m# Step_Def_Classes.ProductsPage.cart_badge_should_display(java.lang.String)&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:32:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Add to cart button changes to Remove button&quot;, &quot;Products page functionality&quot;](22)" classname="Runner.Runner_class" time="1.875">
+    <failure message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:216)
+	at ✽.user clicks Add to cart for "Sauce Labs Backpack"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:76)
+]]></failure>
+    <system-out><![CDATA[
+@regression
+&amp#27;[1mScenario:&amp#27;[22m Verify Add to cart button changes to Remove button            &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:75&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m                     &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mWhen &amp#27;[22muser clicks Add to cart for &amp#27;[1m"Sauce Labs Backpack"&amp#27;[22m&amp#27;[39m              &amp#27;[90m# Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(java.lang.String)&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:216)&amp#27;[39m
+        &amp#27;[33m	at ✽.user clicks Add to cart for "Sauce Labs Backpack"(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:76)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe button for &amp#27;[1m"Sauce Labs Backpack"&amp#27;[22m should change to &amp#27;[1m"Remove"&amp#27;[22m&amp#27;[39m &amp#27;[90m# Step_Def_Classes.ProductsPage.the_button_for_should_change_to(java.lang.String,java.lang.String)&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:32:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can remove a product from cart from Products page&quot;, &quot;Products page functionality&quot;](23)" classname="Runner.Runner_class" time="1.981">
+    <failure message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.is_added_to_the_cart(ProductsPage.java:246)
+	at ✽."Sauce Labs Backpack" is added to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:81)
+]]></failure>
+    <system-out><![CDATA[
+@regression
+&amp#27;[1mScenario:&amp#27;[22m Verify user can remove a product from cart from Products page &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:80&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m                     &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[22m is added to the cart&amp#27;[39m                    &amp#27;[90m# Step_Def_Classes.ProductsPage.is_added_to_the_cart(java.lang.String)&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at Step_Def_Classes.ProductsPage.is_added_to_the_cart(ProductsPage.java:246)&amp#27;[39m
+        &amp#27;[33m	at ✽."Sauce Labs Backpack" is added to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:81)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22muser clicks Remove for &amp#27;[1m"Sauce Labs Backpack"&amp#27;[22m&amp#27;[39m                   &amp#27;[90m# Step_Def_Classes.ProductsPage.user_clicks_remove_for(java.lang.String)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe product should be removed from the cart&amp#27;[39m                    &amp#27;[90m# Step_Def_Classes.ProductsPage.the_product_should_be_removed_from_the_cart()&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mcart badge should not be displayed&amp#27;[39m                              &amp#27;[90m# Step_Def_Classes.ProductsPage.cart_badge_should_not_be_displayed()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:32:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify cart badge displays correct product count&quot;, &quot;Products page functionality&quot;](24)" classname="Runner.Runner_class" time="1.992">
+    <failure message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:234)
+	at ✽.user adds "Sauce Labs Backpack" to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:88)
+]]></failure>
+    <system-out><![CDATA[
+@regression
+&amp#27;[1mScenario:&amp#27;[22m Verify cart badge displays correct product count &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:87&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m        &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mWhen &amp#27;[22muser adds &amp#27;[1m"Sauce Labs Backpack"&amp#27;[22m to the cart&amp#27;[39m       &amp#27;[90m# Step_Def_Classes.ProductsPage.user_adds_to_the_cart(java.lang.String)&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:234)&amp#27;[39m
+        &amp#27;[33m	at ✽.user adds "Sauce Labs Backpack" to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:88)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22muser adds &amp#27;[1m"Sauce Labs Bike Light"&amp#27;[22m to the cart&amp#27;[39m      &amp#27;[90m# Step_Def_Classes.ProductsPage.user_adds_to_the_cart(java.lang.String)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22muser adds &amp#27;[1m"Sauce Labs Bolt T-Shirt"&amp#27;[22m to the cart&amp#27;[39m    &amp#27;[90m# Step_Def_Classes.ProductsPage.user_adds_to_the_cart(java.lang.String)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mcart badge should display &amp#27;[1m"3"&amp#27;[22m&amp#27;[39m                     &amp#27;[90m# Step_Def_Classes.ProductsPage.cart_badge_should_display(java.lang.String)&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:32:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can navigate to Cart page&quot;, &quot;Products page functionality&quot;](25)" classname="Runner.Runner_class" time="1.875">
+    <failure message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_clicks_on_the_shopping_cart_icon(ProductsPage.java:270)
+	at ✽.user clicks on the shopping cart icon(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:95)
+]]></failure>
+    <system-out><![CDATA[
+@smoke
+&amp#27;[1mScenario:&amp#27;[22m Verify user can navigate to Cart page     &amp#27;[90m# src/test/resources/SauceAppTests/productsPage.feature:94&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22muser is logged into SauceDemo application&amp#27;[39m &amp#27;[90m# Step_Def_Classes.ProductsPage.user_is_logged_into_sauce_demo_application()&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mWhen &amp#27;[22muser clicks on the shopping cart icon&amp#27;[39m      &amp#27;[90m# Step_Def_Classes.ProductsPage.user_clicks_on_the_shopping_cart_icon()&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at Step_Def_Classes.ProductsPage.user_clicks_on_the_shopping_cart_icon(ProductsPage.java:270)&amp#27;[39m
+        &amp#27;[33m	at ✽.user clicks on the shopping cart icon(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:95)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22muser should be navigated to the Cart page&amp#27;[39m  &amp#27;[90m# Step_Def_Classes.ProductsPage.user_should_be_navigated_to_the_cart_page()&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mCart page should be displayed&amp#27;[39m               &amp#27;[90m# Step_Def_Classes.ProductsPage.cart_page_should_be_displayed()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sept 18, 2026 5:32:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+</testsuite>

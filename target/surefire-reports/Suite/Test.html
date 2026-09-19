@@ -1,0 +1,340 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/12/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 18 17:31:19 PDT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>63 seconds (63343 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can add multiple products to cart", "Products page functionality"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:234)
+	at ✽.user adds &quot;Sauce Labs Backpack&quot; to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:70)
+</pre></div><a href='#' onClick='toggleBox("stack-trace53807796", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace53807796'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:234)
+	at ✽.user adds &quot;Sauce Labs Backpack&quot; to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:70)
+</pre></div></td>
+<td>1</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can view product details", "Products page functionality"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed &quot;Sauce Labs Backpack&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+</pre></div><a href='#' onClick='toggleBox("stack-trace645190902", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace645190902'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed &quot;Sauce Labs Backpack&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+</pre></div></td>
+<td>2</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can view product details", "Products page functionality"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed &quot;Test.allTheThings() T-Shirt (Red)&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+</pre></div><a href='#' onClick='toggleBox("stack-trace684619244", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace684619244'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed &quot;Test.allTheThings() T-Shirt (Red)&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+</pre></div></td>
+<td>2</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can view product details", "Products page functionality"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed &quot;Sauce Labs Bolt T-Shirt&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1298650532", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1298650532'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed &quot;Sauce Labs Bolt T-Shirt&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+</pre></div></td>
+<td>2</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can view product details", "Products page functionality"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed &quot;Sauce Labs Bike Light&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2067233363", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2067233363'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed &quot;Sauce Labs Bike Light&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+</pre></div></td>
+<td>2</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can navigate to Cart page", "Products page functionality"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_clicks_on_the_shopping_cart_icon(ProductsPage.java:270)
+	at ✽.user clicks on the shopping cart icon(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:95)
+</pre></div><a href='#' onClick='toggleBox("stack-trace363682507", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace363682507'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_clicks_on_the_shopping_cart_icon(ProductsPage.java:270)
+	at ✽.user clicks on the shopping cart icon(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:95)
+</pre></div></td>
+<td>1</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can add a product to cart", "Products page functionality"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:216)
+	at ✽.user clicks Add to cart for &quot;Sauce Labs Backpack&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:64)
+</pre></div><a href='#' onClick='toggleBox("stack-trace664555067", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace664555067'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:216)
+	at ✽.user clicks Add to cart for &quot;Sauce Labs Backpack&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:64)
+</pre></div></td>
+<td>1</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Add to cart button changes to Remove button", "Products page functionality"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:216)
+	at ✽.user clicks Add to cart for &quot;Sauce Labs Backpack&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:76)
+</pre></div><a href='#' onClick='toggleBox("stack-trace590794129", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace590794129'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_clicks_add_to_cart_for(ProductsPage.java:216)
+	at ✽.user clicks Add to cart for &quot;Sauce Labs Backpack&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:76)
+</pre></div></td>
+<td>1</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can view product details", "Products page functionality"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed &quot;Sauce Labs Fleece Jacket&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+</pre></div><a href='#' onClick='toggleBox("stack-trace668568559", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace668568559'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.product_name_should_be_displayed(ProductsPage.java:191)
+	at ✽.product name should be displayed &quot;Sauce Labs Fleece Jacket&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:49)
+</pre></div></td>
+<td>2</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can view product details", "Products page functionality"</td>
+<td><div><pre>org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=152.0.7977.84)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d11c46fe3938459debecfa45cbdb56f7, clearElement {id=f.1BD3F4468E675331B968B7342186D031.d.07DBFB6F68C1D0DFC402AE2DDABC2114.e.18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\spgit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64844}, goog:processID: 14716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64844/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d11c46fe3938459debecfa45cbdb56f7)] -&gt; xpath: //div[text()=&apos;Sauce Labs Onesie&apos;]]
+Session ID: d11c46fe3938459debecfa45cbdb56f7
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:131)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.clear(Unknown Source)
+	at POM_Classes.productsPage.clickOnProduct(productsPage.java:297)
+	at Step_Def_Classes.ProductsPage.user_clicks_on_a_product_name(ProductsPage.java:178)
+	at ✽.user clicks on a product name &quot;Sauce Labs Onesie&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:47)
+... Removed 2 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1196877260", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1196877260'><pre>org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=152.0.7977.84)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d11c46fe3938459debecfa45cbdb56f7, clearElement {id=f.1BD3F4468E675331B968B7342186D031.d.07DBFB6F68C1D0DFC402AE2DDABC2114.e.18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\spgit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64844}, goog:processID: 14716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64844/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d11c46fe3938459debecfa45cbdb56f7)] -&gt; xpath: //div[text()=&apos;Sauce Labs Onesie&apos;]]
+Session ID: d11c46fe3938459debecfa45cbdb56f7
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:131)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.clear(Unknown Source)
+	at POM_Classes.productsPage.clickOnProduct(productsPage.java:297)
+	at Step_Def_Classes.ProductsPage.user_clicks_on_a_product_name(ProductsPage.java:178)
+	at ✽.user clicks on a product name &quot;Sauce Labs Onesie&quot;(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:47)
+</pre></div></td>
+<td>2</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can remove a product from cart from Products page", "Products page functionality"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.is_added_to_the_cart(ProductsPage.java:246)
+	at ✽.&quot;Sauce Labs Backpack&quot; is added to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:81)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1469217737", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1469217737'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.is_added_to_the_cart(ProductsPage.java:246)
+	at ✽.&quot;Sauce Labs Backpack&quot; is added to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:81)
+</pre></div></td>
+<td>1</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify cart badge displays correct product count", "Products page functionality"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:234)
+	at ✽.user adds &quot;Sauce Labs Backpack&quot; to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:88)
+</pre></div><a href='#' onClick='toggleBox("stack-trace416427727", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace416427727'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at Step_Def_Classes.ProductsPage.user_adds_to_the_cart(ProductsPage.java:234)
+	at ✽.user adds &quot;Sauce Labs Backpack&quot; to the cart(file:///C:/Users/spgit/OneDrive/Software%20testing_Target/Automation_Projects/Sauce_Lab_BDD_framework/src/test/resources/SauceAppTests/productsPage.feature:88)
+</pre></div></td>
+<td>1</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Login Functionality"</td>
+<td></td>
+<td>2</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Products page is displayed successfully", "Products page functionality"</td>
+<td></td>
+<td>2</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Title", "Login Functionality"</td>
+<td></td>
+<td>1</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can sort products by Name A to Z", "Products page functionality"</td>
+<td></td>
+<td>2</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can sort products by Price high to low", "Products page functionality"</td>
+<td></td>
+<td>3</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify product price is displayed correctly", "Products page functionality"</td>
+<td></td>
+<td>2</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Login Functionality"</td>
+<td></td>
+<td>7</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can sort products by Price low to high", "Products page functionality"</td>
+<td></td>
+<td>2</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Login Functionality"</td>
+<td></td>
+<td>2</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Login Functionality"</td>
+<td></td>
+<td>2</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user can sort products by Name Z to A", "Products page functionality"</td>
+<td></td>
+<td>2</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify all products are displayed on Products page", "Products page functionality"</td>
+<td></td>
+<td>2</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+<tr>
+<td title='Runner.Runner_class.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner_class<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Login Functionality"</td>
+<td></td>
+<td>2</td>
+<td>Runner.Runner_class@3d74bf60</td></tr>
+</table><p>
+</body>
+</html>

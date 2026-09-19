@@ -4,10 +4,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import Utility.waitUtils;
 
 public class loginPage {
 	
 	WebDriver driver;
+	waitUtils wait;
 	
 	@FindBy(xpath="//div[text()='Swag Labs']") private WebElement loginpageTitle;
 	@FindBy(id="user-name") private WebElement userName;
@@ -18,6 +22,7 @@ public class loginPage {
 	public loginPage(WebDriver driver) {
 		
 		this.driver = driver;
+		this.wait = new waitUtils(driver);
 		
 		PageFactory.initElements(driver, this);
 	}
@@ -30,19 +35,19 @@ public class loginPage {
 	}
 	public void enterUsername(String username) {
 		
-		userName.sendKeys(username);
+		wait.waitForVisibility(userName).sendKeys(username);
 	}
 	public void enterPassword(String Password) {
 		
-		password.sendKeys(Password);
+		wait.waitForVisibility(password).sendKeys(Password);
 	}
 	public void clickOnLoginBtn() {
 		
-		loginBtn.click();
+		wait.waitForClickability(loginBtn).click();
 	}
    public String getTheproductPageTitle() {
 	   
-	  String pagetitle = productPageTitle.getText();
+	  String pagetitle = wait.waitForVisibility(productPageTitle).getText();
 	  
 	  return pagetitle;
    }
